@@ -1,0 +1,326 @@
+<p>&nbsp;</p>
+
+<ul>
+	<li><a href="#z39-50">Přebírání záznamů přes Z39.50</a></li>
+	<li><a href="#materialy">Materiály</a></li>
+</ul>
+
+<hr />
+<h2><a id="Z39-50" name="Z39-50"><strong>Přebírání záznamů přes Z39.50</strong></a></h2>
+
+<h3><strong>Obecný profil</strong></h3>
+
+<p>Portál Knihovny.cz umožňuje knihovnám stahování bibliografických záznamů prostřednictvím protokolu Z39.50 a je tak funkční alternativou k nástrojům sdílené katalogizace JIB.</p>
+
+<h4><strong>Výhody stahování záznamů na portálu Knihovny.cz:</strong></h4>
+
+<p>Na rozdíl od JIB umožňují Knihovny.cz prohledávat všechny národní zdroje najednou (nemusí se tedy postupně ptát jednotlivých katalogů jako v JIB).</p>
+
+<p>Je možno přidat další zdroje (zejména zahraniční knihovny) jako další Z39.50 zdroje, které se pak chovají spolu s indexem Knihovny.cz podobně jako zdroje v JIB: systém se postupně dotazuje jednotlivých zdrojů v definovaném pořadí, dokud od některého z nich nedostane odpověď.</p>
+
+<h4><strong>Konfigurace obecných profilů pro přebírání:</strong></h4>
+
+<ul style="list-style-type:none">
+	<li>
+	<table style="width:40%">
+		<tbody>
+			<tr>
+				<td>
+				<p><strong>Adresa:</strong></p>
+				</td>
+				<td>
+				<p><code>www.knihovny.cz</code></p>
+				</td>
+			</tr>
+			<tr>
+				<td>
+				<p><strong>Port:</strong></p>
+				</td>
+				<td>
+				<p><code>9000</code></p>
+				</td>
+			</tr>
+			<tr>
+				<td>
+				<p><strong>Podporované kódování:</strong></p>
+				</td>
+				<td>
+				<p><code>UTF-8</code></p>
+				</td>
+			</tr>
+			<tr>
+				<td>
+				<p><strong>Formát záznamů:</strong></p>
+				</td>
+				<td>
+				<p><code>marc21</code></p>
+				</td>
+			</tr>
+			<tr>
+				<td>
+				<p><strong>Jméno databáze:</strong></p>
+				</td>
+				<td>
+				<p><code>cpk</code>, <code>cpk_zahr</code> nebo <code>cpk_univ</code></p>
+				</td>
+			</tr>
+		</tbody>
+	</table>
+	</li>
+</ul>
+
+<h4><strong>Podporované služby:</strong></h4>
+
+<ul style="list-style-type:none">
+	<li><strong><code>Init</code></strong></li>
+	<li><strong><code>Search</code></strong></li>
+	<li><strong><code>Present</code></strong></li>
+	<li><strong><code>Close</code></strong></li>
+</ul>
+
+<h4><strong>Podporované parametry:</strong></h4>
+
+<ul style="list-style-type:none">
+	<li>
+	<table style="width:20%">
+		<thead>
+			<tr>
+				<th>
+				<p><strong>Bib-1</strong></p>
+				</th>
+				<th>
+				<p><strong>Use</strong></p>
+				</th>
+			</tr>
+		</thead>
+		<tbody>
+			<tr>
+				<td>
+				<p><strong><code>4</code></strong></p>
+				</td>
+				<td>
+				<p><strong>název</strong></p>
+				</td>
+			</tr>
+			<tr>
+				<td>
+				<p><strong><code>7</code></strong></p>
+				</td>
+				<td>
+				<p><strong>isbn</strong></p>
+				</td>
+			</tr>
+			<tr>
+				<td>
+				<p><strong><code>21</code></strong></p>
+				</td>
+				<td>
+				<p><strong>klíčová slova</strong></p>
+				</td>
+			</tr>
+			<tr>
+				<td>
+				<p><strong><code>31</code></strong></p>
+				</td>
+				<td>
+				<p><strong>datum vydání</strong></p>
+				</td>
+			</tr>
+			<tr>
+				<td>
+				<p><strong><code>1003</code></strong></p>
+				</td>
+				<td>
+				<p><strong>autor</strong></p>
+				</td>
+			</tr>
+			<tr>
+				<td>
+				<p><strong><code>1007</code></strong></p>
+				</td>
+				<td>
+				<p><strong>issn</strong></p>
+				</td>
+			</tr>
+			<tr>
+				<td>
+				<p><strong><code>1016</code></strong></p>
+				</td>
+				<td>
+				<p><strong>hledání ve všem</strong></p>
+				</td>
+			</tr>
+			<tr>
+				<td>
+				<p><strong><code>1018</code></strong></p>
+				</td>
+				<td>
+				<p><strong>nakladatel</strong></p>
+				</td>
+			</tr>
+		</tbody>
+	</table>
+	</li>
+</ul>
+
+<h3><strong>Profil <code>cpk</code> pro přebírání záznamů z národního indexu</strong></h3>
+
+<p>Všechny záznamy z Národních zdrojů kromě záznamů konvertovaných z proprietárních formátů a záznamů v Dublin Core.</p>
+
+<h3><strong>Profil <code>cpk_zahr</code> pro výběr ze zahraničních knihoven</strong></h3>
+
+<ul>
+	<li>
+	<p>Library of Congress</p>
+	</li>
+	<li>
+	<p>University of Oxford</p>
+	</li>
+	<li>
+	<p>Bibsys</p>
+	</li>
+	<li>
+	<p>Universität Basel</p>
+	</li>
+	<li>
+	<p>Slovenská národná knižnica</p>
+	</li>
+	<li>
+	<p>Network of Libraries and Information Centers in Switzerland</p>
+	</li>
+	<li>
+	<p>Norwegian national bibliography</p>
+	</li>
+	<li>
+	<p>GBV Common Library Network of the German States Bremen, Hamburg, Mecklenburg-Vorpommern, Niedersachsen, Sachsen-Anhalt, Schleswig-Holstein, Thüringen and the Foundation of Prussian Cultural Heritage</p>
+	</li>
+</ul>
+
+<h3><strong>Profil <code>cpk_univ</code> pro výběr českých univerzitních knihoven</strong></h3>
+
+<ul>
+	<li>
+	<p dir="ltr">Západočeská univerzita v Plzni<span style="background-color:transparent">&nbsp;</span></p>
+	</li>
+	<li>
+	<p dir="ltr">Masarykova univerzita<span style="background-color:transparent">&nbsp;</span></p>
+	</li>
+	<li>
+	<p dir="ltr">Vysoké učení technické v Brně<span style="background-color:transparent">&nbsp;</span></p>
+	</li>
+	<li>
+	<p dir="ltr">Univerzita Tomáše Bati ve Zlíně<span style="background-color:transparent">&nbsp;</span></p>
+	</li>
+	<li>
+	<p dir="ltr">Univerzita Palackého v Olomouci</p>
+	</li>
+</ul>
+
+<h3><strong>Individualizovaný profil</strong></h3>
+
+<p>Jsme připraveni na tvorbu individualizovaných profilů dle potřeb jednotlivých knihoven. Pro profil s vlastním nastavením vyplňte <a href="https://docs.google.com/forms/d/1DYz-W6ZfoHIVGsTzh3u2CZ90urDlk08BqCQsdwmeG1M" rel="noopener" target="_blank">formulář</a>.</p>
+
+<p><a href="#up">Nahoru</a></p>
+
+<h2><a name="materialy"><strong>Materiály</strong></a></h2>
+
+<h3><strong>Grafické podklady</strong></h3>
+
+<p>Lze využít dvě barevné varianty našeho loga:</p>
+
+<table style="width:100%">
+	<tbody>
+		<tr>
+			<td style="vertical-align:top"><strong>červené písmo na bílém podkladu</strong><br />
+			Ke stažení <a href="https://drive.google.com/uc?export=download&amp;id=0BwAoJOcoH7qJMlhEYkcwUzIyZm8">zde</a>.</td>
+			<td><img src="https://raw.githubusercontent.com/moravianlibrary/CPK/master/themes/bootstrap3/images/portalLogos/logo_knihovny.cz.png" style="width:520px" /></td>
+		</tr>
+		<tr>
+			<td style="vertical-align:top"><strong>bílé písmo na červeném podkladu</strong><br />
+			Ke stažení <a href="https://drive.google.com/uc?export=download&amp;id=0BwAoJOcoH7qJekt3QjJyRkJzalU">zde</a>.</td>
+			<td><img src="https://raw.githubusercontent.com/moravianlibrary/CPK/master/themes/bootstrap3/images/portalLogos/logo_knihovny_bile.png" style="width:520px" /></td>
+		</tr>
+	</tbody>
+</table>
+
+<p>&nbsp;</p>
+
+<p>Logo ve formátu&nbsp;<strong>přes celou obrazovku</strong>, které lze použít např. jako spořič, si stáhnete <a href="https://drive.google.com/uc?export=download&amp;id=0B7vDT-kYXmGsTzliMHZLUVQzQUU">zde</a>.</p>
+
+<p><strong>Vektorové logo</strong> ve formátu SVG je ke stažení <a href="https://drive.google.com/uc?export=download&amp;id=0BwAoJOcoH7qJNS1LVTZ2aWh3bkU">zde</a>.</p>
+<!--
+<p><strong>Manuál na použití loga</strong> si můžete stáhnout <a href="https://drive.google.com/uc?export=download&id=0B4VsdaaSFnnhVTc0Y1NIc1huYUR3YVAxRTFXemh6Wmt5ZFc4">zde</a>.</p>
+-->
+
+<p>K dispozici je rovněž</p>
+
+<ul>
+	<li><strong>banner</strong> - <a href="https://drive.google.com/uc?export=download&amp;id=0B7vDT-kYXmGsWHYyd1hvZGJJMTQ">PNG</a></li>
+	<li><strong>záložka</strong> (rub či líc lze použít i jako banner) - <a href="https://drive.google.com/uc?export=download&amp;id=0B7vDT-kYXmGsUmVJV3plYlRZZmM">JPG líc</a>, <a href="https://drive.google.com/uc?export=download&amp;id=0B7vDT-kYXmGsTDZLcjB5cWdqUHc">JPG rub</a>, <a href="https://drive.google.com/uc?export=download&amp;id=0B7vDT-kYXmGsWUtid3RHNzVwUE0">PDF</a></li>
+	<li><strong>plakát</strong> - <a href="https://drive.google.com/uc?export=download&amp;id=0B7vDT-kYXmGsZGJKNnNtdHloM0k">JPG</a>, <a href="https://drive.google.com/uc?export=download&amp;id=0B7vDT-kYXmGsYkZITHdBOHhsblU">PDF</a></li>
+</ul>
+
+<h3><strong>Vyhledávání Knihovny.cz&nbsp;pro Vaše webové stránky</strong></h3>
+
+<p>Na své webové stránky můžete umístit vyhledávací řádek Knihovny.cz.&nbsp;Pokud např. Vaši čtenáři nenajdou hledaný dokument ve Vaší knihovně, můžou s pomocí vloženého vyhledávácího okna zjistit, zda je k dispozici v knihovnách zapojených do portálu Knihovny.cz.</p>
+
+<p>Pro zobrazení vyhledávacího řádku Knihovny.cz na Vašich stránkách vložte do html kódu následující&nbsp;řádky:</p>
+
+<p>&nbsp;</p>
+
+<pre>
+<span style="color:#a65700">&lt;<strong>iframe</strong></span>
+<span style="color:#074726">&nbsp;&nbsp;allowfullscreen=</span><span style="color:#e60000">&quot;true&quot;</span>
+<span style="color:#074726">&nbsp;&nbsp;webkitallowfullscreen=</span><span style="color:#e60000">&quot;true&quot;</span>
+<span style="color:#074726">&nbsp;&nbsp;mozallowfullscreen=</span><span style="color:#e60000">&quot;true&quot;</span>
+<span style="color:#074726">&nbsp;&nbsp;allowfullscreen=</span><span style="color:#e60000">&quot;true&quot;</span>
+<span style="color:#074726">&nbsp;&nbsp;msallowfullscreen=</span><span style="color:#e60000">&quot;true&quot;</span>
+<span style="color:#074726">&nbsp;&nbsp;frameborder=</span><span style="color:#e60000">&quot;0&quot;</span>
+<span style="color:#074726">&nbsp;&nbsp;scrolling</span><span style="color:#806030">=</span><span style="color:#e60000">&quot;no&quot;</span>
+<span style="color:#074726">&nbsp;&nbsp;marginheight=</span><span style="color:#e60000">&quot;0&quot;</span>
+<span style="color:#074726">&nbsp;&nbsp;marginwidth=</span><span style="color:#e60000">&quot;0&quot;</span>
+<span style="color:#074726">&nbsp;&nbsp;width=</span><span style="color:#e60000">&quot;400&quot;</span>
+<span style="color:#074726">&nbsp;&nbsp;height=</span><span style="color:#e60000">&quot;100&quot;</span>
+<span style="color:#074726">&nbsp;&nbsp;src=</span><span style="color:#e60000">&quot;https://knihovny.cz/embeded-search-cpk-top.php&quot;</span><span style="color:#a65700">&gt;</span>
+<span style="color:#a65700">&lt;<strong>/iframe</strong>&gt;
+</span></pre>
+
+<p>Výsledek vypadá následovně:</p>
+
+<p style="text-align:center"><iframe frameborder="0" height="100" scrolling="no" src="../../../embeded-search-cpk-top.php" width="400"></iframe></p>
+
+<p>Nebo můžete použít alternativní zobrazení s logem vedle vyhledávacího pole:</p>
+
+<pre>
+<span style="color:#a65700">&lt;<strong>iframe</strong></span>
+<span style="color:#074726">&nbsp;&nbsp;allowfullscreen=</span><span style="color:#e60000">&quot;true&quot;</span>
+<span style="color:#074726">&nbsp;&nbsp;webkitallowfullscreen=</span><span style="color:#e60000">&quot;true&quot;</span>
+<span style="color:#074726">&nbsp;&nbsp;mozallowfullscreen=</span><span style="color:#e60000">&quot;true&quot;</span>
+<span style="color:#074726">&nbsp;&nbsp;allowfullscreen=</span><span style="color:#e60000">&quot;true&quot;</span>
+<span style="color:#074726">&nbsp;&nbsp;msallowfullscreen=</span><span style="color:#e60000">&quot;true&quot;</span>
+<span style="color:#074726">&nbsp;&nbsp;frameborder=</span><span style="color:#e60000">&quot;0&quot;</span>
+<span style="color:#074726">&nbsp;&nbsp;scrolling</span><span style="color:#806030">=</span><span style="color:#e60000">&quot;no&quot;</span>
+<span style="color:#074726">&nbsp;&nbsp;marginheight=</span><span style="color:#e60000">&quot;0&quot;</span>
+<span style="color:#074726">&nbsp;&nbsp;marginwidth=</span><span style="color:#e60000">&quot;0&quot;</span>
+<span style="color:#074726">&nbsp;&nbsp;width=</span><span style="color:#e60000">&quot;700&quot;</span>
+<span style="color:#074726">&nbsp;&nbsp;height=</span><span style="color:#e60000">&quot;100&quot;</span>
+<span style="color:#074726">&nbsp;&nbsp;src=</span><span style="color:#e60000">&quot;https://knihovny.cz/embeded-search-cpk-left.php&quot;</span><span style="color:#a65700">&gt;</span>
+<span style="color:#a65700">&lt;<strong>/iframe</strong>&gt;
+</span></pre>
+
+<p>Výsledek vypadá následovně:</p>
+
+<p style="text-align:center"><iframe frameborder="0" height="100" scrolling="no" src="../../../embeded-search-cpk-left.php" width="700"></iframe></p>
+
+<h2>Další podstatné informace</h2>
+
+<p>Aktuální informace najdete v textech, na něž je odkazováno v patičce portálu. Zejména pak:</p>
+
+<ul>
+	<li><a href="../../../Portal/Page/jak-se-zapojit">Jak se zapojit</a></li>
+	<li><a href="../../../Portal/Page/napoveda">Nápověda</a> (manuál pro uživatele)</li>
+	<li><a href="../../../Portal/Page/o-portalu">O portálu</a></li>
+	<li><a href="../../../Portal/Page/zapojene-knihovny-a-zdroje">Zapojené knihovny a zdroje</a></li>
+</ul>
+
+<p><a href="#up">Nahoru</a></p>
