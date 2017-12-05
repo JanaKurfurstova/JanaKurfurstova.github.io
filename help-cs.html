@@ -1,668 +1,550 @@
 <p>Portál Knihovny.cz Vám umožňuje prohledávat katalogy zapojených knihoven z jediného vyhledávacího řádku. Jste-li navíc registrováni v jedné či v několika zapojených knihovnách, můžete využívat jejich služby přes náš portál.</p>
-
 <h2>Tooltipy a otazníková nápověda</h2>
-
 <p>K nápovědám pro jednotlivé ovládací prvky portálu se dostanete i jednodušeji než procházením této dokumentace.</p>
-
 <p>Stačí kliknout na <strong>šedou ikonu otazníku</strong> a zobrazí se Vám nápověda pro konkrétní funkcionalitu.</p>
-
 <p>Další <strong>vysvětlivky (tooltipy) se zobrazí, když na chvíli zastavíte s kurzorem nad nápisem</strong>, jehož vysvětlení Vás zajímá.</p>
-
-<h2>Obsah</h2>
-
-<ul>
-	<li><a href="#1">1 Přihlášení a přehled služeb dle uživatelského oprávnění</a>
-
-	<ul>
-		<li><a href="#1.1">1.1 Přihlášení</a></li>
-		<li><a href="#1.2">1.2 Přehled služeb dle uživatelského oprávnění</a></li>
-	</ul>
-	</li>
-	<li><a href="#2">2 Vyhledávání</a>
-	<ul>
-		<li><a href="#2.1">2.1 Nápověda pro vyhledávání na příkladech</a></li>
-		<li><a href="#2.2">2.2 Našeptávač</a></li>
-		<li><a href="#2.3">2.3 Pokročilé vyhledávání</a></li>
-		<li>
-		<ul>
-			<li><a href="#2.2.1">2.3.1 Vyhledávací řádek</a></li>
-			<li><a href="#2.2.2">2.3.2 Vyhledávací skupina</a></li>
-		</ul>
-		</li>
-	</ul>
-	</li>
-	<li><a href="#3">3 Zobrazení výsledků vyhledávání</a>
-	<ul>
-		<li><a href="#3.1">3.1 Filtry (&quot;Upřesnit hledání&quot;)</a></li>
-		<li><a href="#3.2">3.2 Ukládání, posílání a odebírání (RSS) výsledků vyhledávání</a></li>
-	</ul>
-	</li>
-	<li><a href="#4">4 Zobrazení úplného záznamu</a>
-	<ul>
-		<li><a href="#4.1">4.1 Možnosti postranního panelu</a></li>
-		<li><a href="#4.2">4.2 Karta &quot;Půjčit&quot;</a></li>
-		<li><a href="#4.3">4.3 Karta &quot;E-verze&quot;</a></li>
-		<!-- <li><a href="#4.4">4.4 Karta "Koupit"</a></li> -->
-		<li><a href="#4.4">4.4 Karta &quot;Komentáře&quot;</a></li>
-		<li><a href="#4.5">4.5 Karta &quot;Metadata&quot;</a></li>
-	</ul>
-	</li>
-	<li><a href="#5">5 Můj účet</a>
-	<ul>
-		<li><a href="#5.1">5.1 Výpůjčky</a></li>
-		<li><a href="#5.2">5.2 Historie výpůjček</a></li>
-		<li><a href="#5.3">5.3 Rezervace a objednávky</a></li>
-		<li><a href="#5.4">5.4 Pokuty a poplatky</a></li>
-		<li><a href="#5.5">5.5 Moje knihovny</a></li>
-		<li><a href="#5.6">5.6 Nastavení</a></li>
-		<li><a href="#5.7">5.7 Propojené účty</a></li>
-		<li><a href="#5.8">5.8 Uložená vyhledávání</a></li>
-		<li><a href="#5.9">5.9 Oblíbené</a></li>
-	</ul>
-	</li>
-	<li><a href="#6">6 Inspirace</a></li>
-	<li><a href="#7">7. Adresář knihoven (&quot;Knihovny&quot;)</a></li>
+<h2>Obsah<a id="up" name="up">&nbsp;</a></h2>
+<ul style="list-style: none;">
+    <li><a href="#1">1 Přihlášení a přehled služeb dle uživatelského oprávnění</a>
+        <ul style="list-style: none;">
+            <li><a href="#1.1">1.1 Přihlášení</a></li>
+            <li><a href="#1.2">1.2 Přehled služeb dle uživatelského oprávnění</a></li>
+        </ul>
+    </li>
+    <li><a href="#2">2 Vyhledávání</a>
+        <ul style="list-style: none;">
+            <li><a href="#2.1">2.1 Nápověda pro vyhledávání na příkladech</a></li>
+            <li><a href="#2.2">2.2 Našeptávač</a></li>
+            <li><a href="#2.3">2.3 Pokročilé vyhledávání</a></li>
+            <li>
+                <ul style="list-style: none;">
+                    <li><a href="#2.2.1">2.3.1 Vyhledávací řádek</a></li>
+                    <li><a href="#2.2.2">2.3.2 Vyhledávací skupina</a></li>
+                </ul>
+            </li>
+            <li><a href="#2.4">2.4 "Národní zdroje" a "Zahraniční zdroje"</a></li>
+        </ul>
+    </li>
+    <li><a href="#3">3 Zobrazení výsledků vyhledávání</a>
+        <ul style="list-style: none;">
+            <li><a href="#3.1">3.1 Filtry ("Upřesnit hledání")</a></li>
+            <li><a href="#3.2">3.2 Ukládání, posílání a odebírání (RSS) výsledků vyhledávání</a></li>
+        </ul>
+    </li>
+    <li><a href="#4">4 Zobrazení úplného záznamu</a>
+        <ul style="list-style: none;">
+            <li><a href="#4.1">4.1 Možnosti postranního panelu</a></li>
+            <li><a href="#4.2">4.2 Karta "Půjčit"</a></li>
+            <li><a href="#4.3">4.3 Karta "E-verze"</a></li>
+            <li><a href="#4.4">4.4 Karta "Komentáře"</a></li>
+            <li><a href="#4.5">4.5 Karta "Metadata"</a></li>
+        </ul>
+    </li>
+    <li><a href="#5">5 Můj účet</a>
+        <ul style="list-style: none;">
+            <li><a href="#5.1">5.1 Výpůjčky</a></li>
+            <li><a href="#5.2">5.2 Historie výpůjček</a></li>
+            <li><a href="#5.3">5.3 Rezervace a objednávky</a></li>
+            <li><a href="#5.4">5.4 Pokuty a poplatky</a></li>
+            <li><a href="#5.5">5.5 Moje knihovny</a></li>
+            <li><a href="#5.6">5.6 Nastavení</a></li>
+            <li><a href="#5.7">5.7 Propojené účty</a></li>
+            <li><a href="#5.8">5.8 Uložená vyhledávání</a></li>
+            <li><a href="#5.9">5.9 Oblíbené</a></li>
+        </ul>
+    </li>
+    <li><a href="#6">6 Inspirace</a></li>
+    <li><a href="#7">7 Adresář knihoven ("Knihovny")</a></li>
 </ul>
-
-<h2><strong>1 Přihlášení a přehled služeb dle uživatelského oprávnění</strong></h2>
-
-<h3>1.1 Přihlášení</h3>
-
-<p>Můžete se přihlásit účtem libovolné instituce ze seznamu <strong>&quot;Přihlašte se účtem zapojené knihovny&quot;</strong> nebo účtem některé sociální sítě ze seznamu <strong>&quot;Ostatní přihlášení&quot;</strong> (Google, Facebook, LinkedIn, GitHub resp. mojeID či ORCID).</p>
-
+<h2><strong>1 Přihlášení a přehled služeb dle uživatelského oprávnění</strong><a id="1" name="1">&nbsp;</a></h2>
+<h3><a id="1.1" name="1.1">1.1 Přihlášení</a></h3>
+<p>Můžete se přihlásit účtem libovolné instituce ze seznamu <strong>"Přihlašte se účtem zapojené knihovny"</strong> nebo účtem některé sociální sítě ze seznamu <strong>"Ostatní přihlášení"</strong> (Google, Facebook, LinkedIn, GitHub
+    <!--, resp. mojeID-->či ORCID).</p>
 <p>Jakmile se přihlásíte účtem zapojené knihovny, získáte <strong>přehled o svých aktivitách v dané knihovně</strong> a budete si v ní moci rezervovat a objedávat publikace.</p>
-
-<p>U některých knihoven se může uživateli při prvním přihlášení zobrazit informace o předávané službě (podle nastavení doby platnosti souhlasu s předáváním dat se toto hlášení při dalších přihlašováních zobrazuje či nikoli). Dále se zobrazuje okno s dotazem na souhlas s uchováváním informací podle zákona č. 101/2000 Sb. o ochraně osobních údajů. Bez potvrzení a souhlasu s těmito dvěma dotazy není přihlášení k portálu realizováno, uživatel zůstane nepřihlášen. <!-- check --></p>
-
-<p>Pokud <strong>nejste registrováni v žádné zapojené knihovně</strong> a budete se přihlašovat <strong>jen účtem některé sociální sítě nebo přes mojeID či ORCID</strong>, nebudete si mít možnost rezerovat či objednat publikace ze zapojených knihoven, ale <strong>budete moci ukládat své oblíbené záznamy a vyhledávání</strong>.</p>
-
-<p>Více o možnostech registrace v zapojených knihovnách se dočtete <a href="../../../Portal/Page/moznosti-prihlaseni-a-registrace">zde</a>.</p>
-
+<p>U některých knihoven se může uživateli při prvním přihlášení zobrazit informace o předávané službě (podle nastavení doby platnosti souhlasu s předáváním dat se toto hlášení při dalších přihlašováních zobrazuje či nikoli). Dále se zobrazuje okno s dotazem na souhlas s uchováváním informací podle zákona č. 101/2000 Sb. o ochraně osobních údajů. Bez potvrzení a souhlasu s těmito dvěma dotazy není přihlášení k portálu realizováno, uživatel zůstane nepřihlášen.</p>
+<p>Pokud <strong>nejste registrováni v žádné zapojené knihovně</strong> a budete se přihlašovat <strong>jen účtem některé sociální sítě nebo přes<!-- mojeID či--> ORCID</strong>, nebudete si mít možnost rezerovat či objednat publikace ze zapojených knihoven, ale <strong>budete moci ukládat své oblíbené záznamy a vyhledávání</strong>.</p>
+<p>Více o možnostech registrace v zapojených knihovnách se dočtete <a href="../../../Portal/Page/moznosti-prihlaseni-a-registrace" target="_blank">zde</a>.</p>
 <p>Na portálu Knihovny.cz si <strong>můžete propojovat své účty</strong> z knihoven a sociálních sítí (více <a href="#5.7">zde</a>) - přihlašovat se můžete kterýmkoliv z nich.</p>
-
-<h3>1.2 Přehled služeb dle uživatelského oprávnění</h3>
-
+<h3><a id="1.2" name="1.2">1.2 Přehled služeb dle uživatelského oprávnění</a></h3>
 <p>Portál Knihovny.cz nabízí řadu funkcí, z nichž některé Vám budou přístupné pouze po přihlášení. Rozsah nabízených funkcí zobrazuje následující tabulka:</p>
-
-<table border="1" cellpadding="0" cellspacing="0" style="border-collapse:collapse; border:#e5004b; margin-left:21pt; text-align:center">
-	<tbody>
-		<tr>
-			<td style="width:241pt">&nbsp;</td>
-			<td style="background-color:#fff7fa; width:149pt">
-			<p><br />
-			<strong>Přístup bez přihlášení </strong></p>
-			</td>
-			<td style="width:149pt">
-			<p><br />
-			<strong>Přihlášení do portálu<br />
-			přes jiný účet </strong><br />
-			(Facebook, Google, mojeID...)</p>
-			</td>
-			<td style="background-color:#fff7fa; width:163pt">
-			<p><br />
-			<strong>Přihlášení přes účet knihovny zapojené do portálu</strong></p>
-			</td>
-		</tr>
-		<tr>
-			<td style="background-color:#fff7fa; width:241pt">
-			<p><br />
-			<strong>Vyhledávací funkce, zobrazení informací o dostupnosti dokumentů</strong></p>
-			</td>
-			<td style="width:149pt">
-			<p><br />
-			ANO</p>
-			</td>
-			<td style="width:149pt">
-			<p><br />
-			ANO</p>
-			</td>
-			<td style="width:163pt">
-			<p><br />
-			ANO</p>
-			</td>
-		</tr>
-		<tr>
-			<td style="background-color:#ffebf2; width:241pt">
-			<p><br />
-			<strong>Export záznamů do citačních manažerů, generování citací, trvalé odkazy, zasílání záznamů emailem </strong></p>
-			</td>
-			<td style="background-color:#fff7fa; width:149pt">
-			<p><br />
-			ANO</p>
-			</td>
-			<td style="background-color:#fff7fa; width:149pt">
-			<p><br />
-			ANO</p>
-			</td>
-			<td style="background-color:#fff7fa; width:163pt">
-			<p><br />
-			ANO</p>
-			</td>
-		</tr>
-		<tr>
-			<td style="background-color:#fff7fa; width:241pt">
-			<p><br />
-			<strong>Historie vyhledávání, ukládání do seznamu Oblíbené </strong></p>
-			</td>
-			<td style="width:149pt">
-			<p><br />
-			ANO (do zavření prohlížeče)*</p>
-			</td>
-			<td style="width:149pt">
-			<p><br />
-			ANO (s uložením do profilu)</p>
-			</td>
-			<td style="width:163pt">
-			<p><br />
-			ANO (s uložením do profilu)</p>
-			</td>
-		</tr>
-		<tr>
-			<td style="background-color:#ffebf2; width:241pt">
-			<p><br />
-			<strong>Ukládání vyhledávání, uživatelská nastavení, komentáře k záznamům </strong></p>
-			</td>
-			<td style="background-color:#fff7fa; width:149pt">
-			<p><br />
-			NE</p>
-			</td>
-			<td style="background-color:#fff7fa; width:149pt">
-			<p><br />
-			ANO</p>
-			</td>
-			<td style="background-color:#fff7fa; width:163pt">
-			<p><br />
-			ANO</p>
-			</td>
-		</tr>
-		<tr>
-			<td style="background-color:#fff7fa; width:241pt">
-			<p><br />
-			<strong>Objednávání a rezervace</strong></p>
-			</td>
-			<td style="width:149pt">
-			<p><br />
-			NE</p>
-			</td>
-			<td style="width:149pt">
-			<p><br />
-			NE</p>
-			</td>
-			<td style="width:163pt">
-			<p><br />
-			ANO</p>
-			</td>
-		</tr>
-		<tr>
-			<td style="background-color:#ffebf2; width:241pt">
-			<p><br />
-			<strong>Čtenářské konto </strong>(přehled výpůjček, rezervací, objednávek, poplatků, registrací, prodlužování výpůjček&hellip;)</p>
-			</td>
-			<td style="background-color:#fff7fa; width:149pt">
-			<p><br />
-			NE</p>
-			</td>
-			<td style="background-color:#fff7fa; width:149pt">
-			<p><br />
-			NE</p>
-			</td>
-			<td style="background-color:#fff7fa; width:163pt">
-			<p>ANO</p>
-			</td>
-		</tr>
-		<tr>
-			<td style="background-color:#fff7fa; width:241pt">
-			<p><br />
-			<strong>Přístup k licencovaným ezdrojům</strong></p>
-			</td>
-			<td style="width:149pt">
-			<p><br />
-			NE</p>
-			</td>
-			<td style="width:149pt">
-			<p><br />
-			NE</p>
-			</td>
-			<td style="width:163pt">
-			<p><br />
-			PODLE KNIHOVNY</p>
-			</td>
-		</tr>
-	</tbody>
+<table style="margin-left: 21pt; border-collapse: collapse; border: #E5004b; text-align: center;" border="1" cellspacing="0" cellpadding="0">
+    <tbody>
+        <tr style="color: #e5004b;">
+            <td style="width: 241pt;">&nbsp;</td>
+            <td style="width: 149pt; background: #FFF7FA;">
+                <p><br /><strong>Přístup bez přihlášení </strong></p>
+            </td>
+            <td style="width: 149pt;">
+                <p><br /><strong>Přihlášení do portálu<br />přes jiný účet </strong><br />(Facebook, Google, mojeID...)</p>
+            </td>
+            <td style="width: 163pt; background: #FFF7FA;">
+                <p><br /><strong> Přihlášení přes účet knihovny zapojené do portálu</strong></p>
+            </td>
+        </tr>
+        <tr>
+            <td style="width: 241pt; color: #e5004b; background: #FFF7FA;">
+                <p><br /><strong>Vyhledávací funkce, zobrazení informací o dostupnosti dokumentů</strong></p>
+            </td>
+            <td style="width: 149pt;">
+                <p><br />ANO</p>
+            </td>
+            <td style="width: 149pt;">
+                <p><br />ANO</p>
+            </td>
+            <td style="width: 163pt;">
+                <p><br />ANO</p>
+            </td>
+        </tr>
+        <tr>
+            <td style="width: 241pt; color: #e5004b; background: #FFEBF2;">
+                <p><br /><strong> Export záznamů do citačních manažerů, generování citací, trvalé odkazy, zasílání záznamů emailem </strong></p>
+            </td>
+            <td style="width: 149pt; background: #FFF7FA;">
+                <p><br />ANO</p>
+            </td>
+            <td style="width: 149pt; background: #FFF7FA;">
+                <p><br />ANO</p>
+            </td>
+            <td style="width: 163pt; background: #FFF7FA;">
+                <p><br />ANO</p>
+            </td>
+        </tr>
+        <tr>
+            <td style="width: 241pt; color: #e5004b; background: #FFF7FA;">
+                <p><br /><strong> Historie vyhledávání, ukládání do seznamu Oblíbené </strong></p>
+            </td>
+            <td style="width: 149pt;">
+                <p><br />ANO (do zavření prohlížeče)*</p>
+            </td>
+            <td style="width: 149pt;">
+                <p><br />ANO (s uložením do profilu)</p>
+            </td>
+            <td style="width: 163pt;">
+                <p><br />ANO (s uložením do profilu)</p>
+            </td>
+        </tr>
+        <tr>
+            <td style="width: 241pt; color: #e5004b; background: #FFEBF2;">
+                <p><br /><strong>Ukládání vyhledávání, uživatelská nastavení, komentáře k záznamům </strong></p>
+            </td>
+            <td style="width: 149pt; background: #FFF7FA;">
+                <p><br />NE</p>
+            </td>
+            <td style="width: 149pt; background: #FFF7FA;">
+                <p><br />ANO</p>
+            </td>
+            <td style="width: 163pt; background: #FFF7FA;">
+                <p><br />ANO</p>
+            </td>
+        </tr>
+        <tr>
+            <td style="width: 241pt; color: #e5004b; background: #FFF7FA;">
+                <p><br /><strong>Objednávání a rezervace</strong></p>
+            </td>
+            <td style="width: 149pt;">
+                <p><br />NE</p>
+            </td>
+            <td style="width: 149pt;">
+                <p><br />NE</p>
+            </td>
+            <td style="width: 163pt;">
+                <p><br />ANO</p>
+            </td>
+        </tr>
+        <tr>
+            <td style="width: 241pt; color: #e5004b; background: #FFEBF2;">
+                <p><br /><strong>Čtenářské konto </strong>(přehled výpůjček, rezervací, objednávek, poplatků, registrací, prodlužování výpůjček&hellip;)</p>
+            </td>
+            <td style="width: 149pt; background: #FFF7FA;">
+                <p><br />NE</p>
+            </td>
+            <td style="width: 149pt; background: #FFF7FA;">
+                <p><br />NE</p>
+            </td>
+            <td style="width: 163pt; background: #FFF7FA;">
+                <p>ANO</p>
+            </td>
+        </tr>
+        <tr>
+            <td style="width: 241pt; color: #e5004b; background: #FFF7FA;">
+                <p><br /><strong>Přístup k licencovaným ezdrojům</strong></p>
+            </td>
+            <td style="width: 149pt;">
+                <p><br />NE</p>
+            </td>
+            <td style="width: 149pt;">
+                <p><br />NE</p>
+            </td>
+            <td style="width: 163pt;">
+                <p><br />PODLE KNIHOVNY</p>
+            </td>
+        </tr>
+    </tbody>
 </table>
-
-<p><br />
-*) Tato funkce není dostupná v prohlížeči Internet Explorer</p>
-
+<p><br />*) Tato funkce není dostupná v prohlížeči Internet Explorer</p>
 <p><a href="#up">Nahoru</a></p>
-
-<h2><strong>2 Vyhledávání</strong></h2>
-
-<p><strong>Pro jednoduché vyhledávání Vám slouží vyhledávací řádek</strong>, které funguje podobně jako Google vyhledávání.</p>
-
-<p>V případě, že vyhledávací řádek nevyplníte a stiskněte tlačítko <strong>&quot;Hledat&quot;</strong>, zobrazí se vám seznam všech záznamů, které portál obsahuje.</p>
-
+<h2><strong>2 Vyhledávání</strong><a id="2" name="2">&nbsp;</a></h2>
+<p><strong>Pro základní vyhledávání použijte vyhledávací řádek</strong>, který funguje podobně jako Google vyhledávání.</p>
+<p>V případě, že vyhledávací řádek nevyplníte a stiskněte tlačítko <strong>"Hledat"</strong>, zobrazí se vám seznam všech záznamů, které portál obsahuje.</p>
 <p><strong>Výsledky vyhledávání můžete řadit podle relevance, od nejnovějšího, od nejstaršího nebo abecedně dle autora nebo názvu.</strong></p>
-
-<h3>2.1 Nápověda pro vyhledávání na příkladech</h3>
-
-<p>V <strong>jednoduchém i pokročilém vyhledávání</strong> můžete používat následující logické operátory, zástupné znaky atd.</p>
-
-<p><strong><code>&quot;Máchův Máj&quot; </code></strong></p>
-
+<h3><a id="2.1" name="2.1">2.1 Nápověda pro vyhledávání na příkladech</a></h3>
+<p>V <strong>základním i pokročilém vyhledávání</strong> můžete používat následující logické operátory, zástupné znaky atd.</p>
 <ul>
-	<li>vyhledá výrazy obsahující <strong>frázi v uvozovkách, tj. <code>Máchův Máj </code></strong></li>
+    <li>
+        <strong><code>Karel Hynek Mácha</code></strong>
+        <br /> při vyhledávání víceslovného výrazu je v pořadí <strong>upřednostněna přesná shoda</strong> výrazu<strong> se jmény autorů</strong> (ve tvaru <code>jméno příjmení</code>)<strong> a hlavními názvy publikací</strong>
+    </li>
 </ul>
 
-<p><strong><code>Mácha AND Máj </code></strong></p>
-
 <ul>
-	<li>vyhledá výrazy obsahující <strong>zároveň jak <code>Mácha </code>, tak <code>Máj </code></strong></li>
+    <li>
+        <strong><code>"Máchův Máj"</code></strong> - <em>Národní i Zahraniční zdroje</em>
+        <br /> vyhledá výrazy obsahující <strong>frázi v uvozovkách, tj. <code>Máchův Máj</code></strong>
+    </li>
 </ul>
 
-<p><strong><code>Mácha OR Máj </code></strong></p>
-
 <ul>
-	<li>vyhledá výrazy obsahující <strong>aspoň jedno ze slov <code>Mácha </code> nebo <code>Máj </code></strong></li>
+    <li>
+        <strong><code>Mácha AND Máj</code></strong> - <em>Národní i Zahraniční zdroje</em>
+        <br /> vyhledá výrazy obsahující <strong>zároveň jak <code>Mácha</code>, tak <code>Máj</code></strong>
+    </li>
 </ul>
 
-<p><strong><code>Mácha NOT Máj </code> / <code> Mácha -Máj </code></strong></p>
-
 <ul>
-	<li>vyhledá záznamy, které <strong>obsahují <code>Mácha </code> a neobsahují <code>Máj </code></strong></li>
+    <li>
+        <strong><code>Mácha OR Máj</code></strong> - <em>Národní i Zahraniční zdroje</em>
+        <br /> vyhledá výrazy obsahující <strong>aspoň jedno ze slov <code>Mácha</code> nebo <code>Máj</code></strong>
+    </li>
 </ul>
 
-<p><strong><code>+Mácha Máj </code></strong></p>
-
 <ul>
-	<li>vyhledá záznamy, které <strong>můžou obsahovat <code>Mácha </code></strong> a<strong> musí obsahovat <code>Máj </code></strong></li>
+    <li>
+        <strong><code>Mácha NOT Máj</code></strong> - <em>Národní i Zahraniční zdroje</em>
+        <br />
+        <strong><code>Mácha -Máj</code></strong> - <em>Národní zdroje</em>
+        <br /> vyhledá záznamy, které <strong>obsahují <code>Mácha</code> a neobsahují <code>Máj</code></strong>
+    </li>
 </ul>
 
-<p><strong><code>M*cha </code></strong></p>
-
 <ul>
-	<li>vyhledá výrazy začínající na <code>M </code> a končící na <code>cha </code> <strong>s prázdným či libovolně dlouhým řetězcem jakýchkoliv znaků na místě <code>* </code></strong> (nelze použít místo prvních písmen)</li>
+    <li>
+        <strong><code>macha AND (maj OR (zivot AND dilo))</code></strong> - <em>Národní i Zahraniční zdroje</em>
+        <br /> v dotazech <strong>lze používat závorky</strong> (i vnořené)
+        <br /> v dotazech se <strong>nerozlišují malá/velká písmena, interpunkce a diakritika</strong>
+    </li>
 </ul>
 
-<p><strong><code>M?cha </code></strong></p>
-
 <ul>
-	<li>vyhledá výrazy začínající na <code>M </code> a končící na <code>cha </code> <strong>s jedním libovolným znakem na místě <code>? </code></strong> (nelze použít místo prvního písmene)</li>
+    <li>
+        <strong><code>+Mácha Máj</code></strong> - <em>Národní zdroje</em>
+        <br /> vyhledá záznamy, které <strong>musí obsahovat <code>Mácha</code></strong> a<strong> můžou obsahovat <code>Máj</code></strong>
+    </li>
 </ul>
 
-<p><code><strong>Mácha~</strong> </code><strong> /</strong> <code><strong> Mácha~0.8</strong> </code></p>
-
 <ul>
-	<li>vyhledá výrazy <strong>podobné jako <code>Mácha </code> (Mucha, Vácha)</strong>; míra podobnosti se nastavuje hodnotou od 0 do 1 (není-li zadána, nastaví se na 0.5)</li>
+    <li>
+        <strong><code>M*cha</code></strong> - <em>Národní zdroje</em> (nelze použít místo prvních písmen)
+        <br />
+        <strong><code>Mách*</code></strong> - <em>Zahraniční zdroje</em> (jen pravostranné krácení; nelze použít spolu s <code>?</code> a <code>#</code>)
+        <br /> vyhledá výrazy <strong>s prázdným či libovolně dlouhým řetězcem jakýchkoliv znaků na místě <code>*</code></strong>
+    </li>
 </ul>
 
-<p><code><strong>&quot;Mácha Máj&quot;~3</strong> </code></p>
 
 <ul>
-	<li>vyhledá výrazy, kde <strong>mezi <code>Mácha </code> a <code>Máj </code> leží maximálně tři jiná slova</strong></li>
+    <li>
+        <strong><code>M?cha</code></strong> - <em>Národní i Zahraniční zdroje</em>
+        <br /> vyhledá výrazy začínající na <code>M</code> a končící na <code>cha</code> <strong>s jedním libovolným znakem na místě <code>?</code></strong> (nelze použít místo prvního písmene)
+    </li>
 </ul>
-
-<p><code><strong>Mácha Máj^8 básně^6</strong> </code></p>
 
 <ul>
-	<li><strong>preferenční vyhledávání</strong>, kde <strong>váhu slova určuje hodnota za <code>^ </code></strong> (nejnižší váhu má výraz bez ^)</li>
+    <li>
+        <strong><code>M#cha</code></strong> - <em>Zahraniční zdroje</em>
+        <br /> vyhledá výrazy začínající na <code>M</code> a končící na <code>cha</code> <strong>s žádným či jedním libovolným znakem na místě <code>#</code></strong> (nelze použít místo prvního písmene)
+    </li>
 </ul>
-
-<p><strong><code>{Ma TO Mc} </code> / <code>[2001 TO 2003] </code></strong></p>
 
 <ul>
-	<li><strong>rozsahové vyhledávání</strong> (výrazy začínající na Ma, Mb a Mc / čísla od 2001 do 2003)</li>
+    <li>
+        <code><strong>Mácha~</strong></code><strong> /</strong><code><strong> Mácha~0.8</strong></code> - <em>Národní zdroje</em>
+        <br /> vyhledá výrazy <strong>podobné jako <code>Mácha</code> (Mucha, Vácha)</strong>; míra podobnosti se nastavuje hodnotou od 0 do 1 (není-li zadána, nastaví se na 0.5)
+    </li>
 </ul>
 
-<h3>2.2 Našeptávač</h3>
+<ul>
+    <li>
+        <code><strong>"Mácha Máj"~3</strong></code> - <em>Národní zdroje</em>
+        <br />
+        <code><strong>Mácha N3 Máj</strong></code> - <em>Zahraniční zdroje</em>
+        <br />
+        <strong>proximitní vyhledávání</strong>; vyhledá výrazy, kde <strong>mezi <code>Mácha</code> a <code>Máj</code> </strong>(v libovolném pořadí)<strong> leží maximálně tři jiná slova</strong>
+    </li>
+</ul>
 
+<ul>
+    <li>
+        <code><strong>Mácha W3 Máj</strong></code> - <em>Zahraniční zdroje</em>
+        <br />
+        <strong>proximitní vyhledávání</strong>; vyhledá výrazy, kde <strong>mezi <code>Mácha</code> a <code>Máj</code></strong> (v tomto pořadí)<strong> leží maximálně tři jiná slova</strong>
+    </li>
+</ul>
+
+<ul>
+    <li>
+        <code><strong>Mácha Máj^8 básně^6</strong></code> - <em>Národní zdroje</em>
+        <br />
+        <strong>preferenční vyhledávání</strong>, kde <strong>váhu slova určuje hodnota za <code>^</code></strong> (nejnižší váhu má výraz bez <code>^</code>)
+    </li>
+</ul>
+
+<ul>
+    <li>
+        <strong><code>{Ma TO Mc}</code> / <code>[2001 TO 2003]</code></strong> - <em>Národní zdroje</em>
+        <br />
+        <strong>rozsahové vyhledávání</strong> (výrazy začínající na Ma, Mb a Mc / čísla od 2001 do 2003)
+    </li>
+</ul>
+<p>Zahraniční zdroje jsou indexovány třetí stranou, proto se některé vyhledávací operátory pro Domácí a Zahraniční zdroje liší.</p>
+<h3><a id="2.2" name="2.2">2.2 Našeptávač</a></h3>
 <p>Pro usnadnění uživatelského hledání funguje v hlavním vyhledávacím poli jednoduchého vyhledávání<strong> našeptávač, který nabízí nejčastější výskyty k zadávanému termínu</strong>, a to ve třech oblastech: <strong>v názvech, v autorech a v tématech</strong>. Uživatel si může vybrat termín navržený našeptávačem nebo vyhledat svůj termín a nabídky našeptávače nevyužívat.</p>
-
 <p>Je třeba počítat s tím, že vzhledem k tomu, že portál sdružuje záznamy z různých knihoven, tak fakticky stejné téma často najdeme v nabídce našeptávače několikrát. Např. Karel IV. se tak může nabídnout hned v několika verzích, přičemž v každé jsou jiné záznamy.</p>
-
-<h3>2.3 Pokročilé vyhledávání</h3>
-
-<p>Formulář pokročilého vyhledávání Vám pomůže sestavovat složitě strukturované dotazy.</p>
-
+<h3><a id="2.3" name="2.3">2.3 Pokročilé vyhledávání</a></h3>
+<p>Formulář pokročilého vyhledávání Vám pomůže&nbsp;sestavovat složitě&nbsp;strukturované dotazy.</p>
 <p>U každého vyhledávaného výrazu navíc <strong>můžete specifikovat, ve kterých údajích se má hledat</strong>. Můžete vyhledávat v následujících polích:</p>
+<ul>
+    <li>Ve všech polích</li>
+    <li>Název, edice</li>
+    <li>Autor, korporace a akce</li>
+    <li>Téma, předmět nebo klíčová slova</li>
+    <li>Publikováno v - <em>pro články</em></li>
+    <li>ISBN/ISSN/ISMN</li>
+    <li>Signatura</li>
+    <li>Vydavatel</li>
+    <li>Rok vydání</li>
+    <li>Místo vydání</li>
+    <li>ID (001) záznamu - <em>číslo poskytováno knihovnami v poli 001</em></li>
+    <li>ČNB - <em>číslo České národní bibliografie</em></li>
+    <li>Plné texty a obsahy - <em>indexovaných zdrojů</em></li>
+    <li>Mezinárodní patentové třídění - <em>pro hledání patentů podle třídy MPT</em></li>
+</ul>
+<h4>2.3.1 Vyhledávací řádek<a id="2.3.1" name="2.3.1">&nbsp;</a></h4>
+<p>Z rozbalovacího seznamu&nbsp;(s přednastaveným vyhledáváním <strong>&quot;Ve všech polích&quot;</strong>) si zvolíte, který typ údajů si přejete prohledávat.<br /> Můžete <strong>&nbsp;přidávat další vyhledávací řádky</strong>&nbsp;a do nich zadávat další hledané výrazy.<br /> Na vyhledávací řádky v rámci skupiny můžete&nbsp;<strong>aplikovat logické operátory výběrem z malého&nbsp;rolovacího menu</strong>. Možnosti jsou následující:</p>
 
 <ul>
-	<li>Ve všech polích</li>
-	<li>Název, edice</li>
-	<li>Autor, korporace a akce</li>
-	<li>Téma, předmět nebo klíčová slova</li>
-	<li>Publikováno v - <em>pro články</em></li>
-	<li>ISBN/ISSN/ISMN</li>
-	<li>Signatura</li>
-	<li>Vydavatel</li>
-	<li>Rok vydání</li>
-	<li>Místo vydání</li>
-	<li>ID (001) záznamu - <em>číslo poskytováno knihovnami v poli 001</em></li>
-	<li>ČNB - <em>číslo České národní bibliografie</em></li>
-	<li>Plné texty a obsahy - <em>indexovaných zdrojů</em></li>
-	<li>Mezinárodní patentové třídění - <em>pro hledání patentů podle třídy MPT</em></li>
+    <li><strong>Všechny výrazy</strong>&nbsp;- tj. logický operátor AND</li>
+    <li><strong>Některé výrazy</strong>&nbsp;- tj. logický operátor OR</li>
+    <li><strong>Neobsahuje výrazy</strong>&nbsp;- tj. logický operátor NOT</li>
 </ul>
-
-<h4>2.3.1 Vyhledávací řádek</h4>
-
-<p>Z rozbalovacího seznamu (s přednastaveným vyhledáváním <strong>&quot;Ve všech polích&quot;</strong>) si zvolíte, který typ údajů si přejete prohledávat.</p>
-
-<p>Můžete<strong> přidávat další vyhledávací řádky</strong> a do nich zadávat další hledané výrazy.</p>
-
-<p>Na vyhledávací řádky v rámci skupiny můžete <strong>aplikovat logické operátory výběrem z malého rolovacího menu</strong>. Možnosti jsou následující:</p>
+<h4>2.3.2 Vyhledávací skupina<a id="2.3.2" name="2.3.2">&nbsp;</a></h4>
+<p><strong>Přidání vyhledávací skupiny Vám umožní přidání dalších vyhledávacích řádků, k nimž se může vztahovat další logický operátor.</strong>&nbsp;Můžete tedy například vyhledávat záznamy s výskytem všech výrazů z první skupiny a jen některých výrazů z druhé skupiny.<br />
+    <strong>Logický operátor lze aplikovat&nbsp;i na vyhledávací skupiny.</strong>&nbsp;Možnosti jsou následující:</p>
 
 <ul>
-	<li><strong>Všechny výrazy</strong> - tj. logický operátor AND</li>
-	<li><strong>Některé výrazy</strong> - tj. logický operátor OR</li>
-	<li><strong>Neobsahuje výrazy</strong> - tj. logický operátor NOT</li>
+    <li><strong>Všechny skupiny</strong>&nbsp;- tj. logický operátor AND</li>
+    <li><strong>Některé skupiny</strong>&nbsp;- tj. logický operátor OR</li>
 </ul>
 
-<h4>2.3.2 Vyhledávací skupina</h4>
-
-<p><strong>Přidání vyhledávací skupiny Vám umožní přidání dalších vyhledávacích řádků, k nimž se může vztahovat další logický operátor.</strong> Můžete tedy například vyhledávat záznamy s výskytem všech výrazů z první skupiny a jen některých výrazů z druhé skupiny.</p>
-
-<p><strong>Logický operátor lze aplikovat i na vyhledávací skupiny.</strong> Možnosti jsou následující:</p>
-
-<ul>
-	<li><strong>Všechny skupiny</strong> - tj. logický operátor AND</li>
-	<li><strong>Některé skupiny</strong> - tj. logický operátor OR</li>
-</ul>
-
-<p>Pro uplatnění změn provedených ve formuláři je nutné <strong>&quot;Aktualizovat výsledky&quot;</strong>.</p>
-
-<p>Formulář vyprázdníte kliknutím na <strong>&quot;Vyčistit&quot;</strong>.</p>
+<p>Pro uplatnění změn provedených ve formuláři je nutné&nbsp;<strong>&quot;Aktualizovat výsledky&quot;</strong>.<br /> Formulář vyprázdníte&nbsp;kliknutím na&nbsp;<strong>&quot;Vyčistit&quot;</strong>.</p>
 
 <p><strong>Příklad:</strong> Chtěli bychom najít publikace o Janu Husovi, ale nehledáme díla, která Jan Hus napsal.</p>
 
 <ol>
-	<li>Ponecháme volbu <strong>&ldquo;Ve všech polích&rdquo;</strong>, do vyhledávacího řádku zadáme &ldquo;Jan Hus&rdquo;</li>
-	<li>Tlačítkem pod formulářem necháme <strong>&ldquo;Přidat vyhledávací skupinu&rdquo;</strong></li>
-	<li>V rozbalovacím menu u nové skupiny vybereme <strong>&ldquo;Neobsahuje výrazy&rdquo;</strong></li>
-	<li>U vyhledávacího řádku v nové skupině zvolíme vyhledávání v polích <strong>&ldquo;Autor, korporace, akce&rdquo;</strong> a zadáme &ldquo;Jan Hus&rdquo;</li>
-	<li>Provedeme vyhledávání tlačítkem <strong>&ldquo;Aktualizovat výsledky&rdquo;</strong></li>
+    <li>Ponecháme nastavenou volbu&nbsp;<strong>&ldquo;Ve všech polích&rdquo;</strong>, do vyhledávacího řádku zadáme &ldquo;Jan Hus&rdquo;</li>
+    <li>Tlačítkem pod formulářem necháme <strong>&ldquo;Přidat vyhledávací skupinu&rdquo;</strong></li>
+    <li>V rozbalovacím menu u nové skupiny vybereme <strong>&ldquo;Neobsahuje výrazy&rdquo;</strong></li>
+    <li>U vyhledávacího řádku v nové skupině zvolíme vyhledávání v polích <strong>&ldquo;Autor, korporace, akce&rdquo;</strong> a zadáme &ldquo;Jan Hus&rdquo;</li>
+    <li>Provedeme vyhledávání tlačítkem <strong>&ldquo;Aktualizovat výsledky&rdquo;</strong>&nbsp;</li>
 </ol>
 
+<p>V každém vyhledávacím řádku <strong>lze používat tytéž operátory a zástupné znaky jako v jednoduchém vyhledávání</strong> (více <a href="#2.1">zde</a>).</p>
+<h3><a id="2.4" name="2.4">2.4 "Národní zdroje" a "Zahraniční zdroje"</a></h3>
+<p>Portál Knihovny.cz umožňuje uživatelům vyhledávat ve dvou oddělených indexech: v "Národních zdrojích" a v "Zahraničních zdrojích".</p>
+<p><strong>K přepínání mezi indexy "Národních zdrojů" a "Zahraničních zdrojů" slouží záložky zobrazované nad postranním panelem filtrů </strong>("Upřesnit hledání")<strong> ve výsledcích vyhledávání.</strong></p>
 <p><a href="#up">Nahoru</a></p>
-
-<h2><strong>3 Zobrazení výsledků vyhledávání</strong></h2>
-
-<p><strong>Počet záznamů na stránku</strong> si můžete nastavit z rolovacího menu <strong>&quot;Zobrazit na stránku&quot;</strong>.</p>
-
-<p>Výsledky si také můžete seřadit podle následujících možností z rolovacího menu <strong>&quot;Řadit&quot;</strong>:</p>
-
+<h2><strong>3 Zobrazení výsledků vyhledávání</strong><a id="3" name="3">&nbsp;</a></h2>
+<p><strong>Počet záznamů na stránku</strong> si můžete nastavit z rolovacího menu <strong>"Zobrazit na stránku"</strong>.</p>
+<p>Výsledky si také můžete seřadit podle následujících možností z rolovacího menu <strong>"Řadit"</strong>:</p>
 <ul>
-	<li><strong>dle relevance</strong> - tzn. výsledky, které nejvíce odpovídají zadanému dotazu, přednastavená volba</li>
-	<li><strong>od nejnovějších</strong></li>
-	<li><strong>od nestarších</strong></li>
-	<li><strong>dle autora</strong></li>
-	<li><strong>dle názvu</strong></li>
+    <li><strong>dle relevance</strong> - tzn. výsledky, které nejvíce odpovídají zadanému dotazu, přednastavená volba</li>
+    <li><strong>od nejnovějších</strong></li>
+    <li><strong>od nestarších</strong></li>
+    <li><strong>dle autora</strong></li>
+    <li><strong>dle názvu</strong></li>
 </ul>
-
 <p>U každé vyhledané publikace se kromě základních údajů zobrazí rovněž počet institucí, ve které mají danou publikaci ve svém katalogu.</p>
-
-<p><strong>U některých autorů</strong> se vedle jména a roku narození/úmrtí zobrazí <strong>ikona <img alt="ikona hlavy" src="https://raw.githubusercontent.com/JanaKurfurstova/varcpkfiles/master/iconUser.png" style="height:20px; width:20px" /></strong>. Kliknutím na tuto ikonu se dostanete na <strong>podrobnější informace o autorovi</strong>, tzv. autoritní záznam.</p>
-
-<h3>3.1 Filtry (&quot;Upřesnit hledání&quot;)</h3>
-
+<p><strong>U některých autorů</strong> se vedle jména a roku narození/úmrtí zobrazí <strong>ikona <img src="https://github.com/moravianlibrary/CPK/raw/master/themes/bootstrap3/images/hints/user-single5.png" width="20" height="20" /></strong>. Kliknutím na tuto ikonu se dostanete na <strong>podrobnější informace o autorovi</strong>, tzv. autoritní záznam.</p>
+<h3><a id="3.1" name="3.1">3.1 Filtry ("Upřesnit hledání")</a></h3>
 <p>K <strong>upřesnění Vašeho vyhledávání</strong> můžete použít filtry.</p>
 
-<p>Při použití filtru <strong>&quot;Instituce&quot;</strong> a <strong>&quot;Rok vydání&quot;</strong> potvrďte svou volbu tlačítkem <strong>&quot;Použít filtr&quot;</strong>, respektive <strong>&quot;Použít&quot;</strong> <img src="https://github.com/moravianlibrary/VuFind-2.x/blob/master/themes/cpk-devel/images/hints/no1.png?raw=true" style="height:18px; width:18px" />.</p>
+<p>Při výběru několika filtrů se zaškrtávacími políčky&nbsp;<img alt="" src="https://github.com/moravianlibrary/CPK/raw/master/themes/bootstrap3/images/hints/checkbox.png" style="height:15px; width:18px" />&nbsp;v rámci jedné sekce&nbsp;(např. &quot;Typ výpůjčky&quot;) je aplikován logický operátor <strong>NEBO</strong> (OR).&nbsp;</p>
 
-<p>Použití ikon u filtru <strong>&quot;Instituce&quot;</strong>:</p>
+<p>Ve všech ostatních případech je aplikován logický operátor <strong>A</strong> (AND).</p>
 
-<p><img alt="Down" src="https://cdn0.iconfinder.com/data/icons/navigation-set-arrows-part-one/32/Download-128.png" style="height:20px; width:20px" /> -<strong> uložit vyběr institucí pro pozdější použití. </strong>Tato ikona se zobrazuje pouze přihlášeným uživatelům. Uložený výběr lze zrušit odznačením všech vybraných knihoven/zdrojů a opětovným kliknutím na ikonu.</p>
+<p>Kliknutím na symbol šipky<img alt="" src="https://github.com/moravianlibrary/CPK/raw/master/themes/bootstrap3/images/hints/jstree-arrow.png" style="height:16px; width:15px" />&nbsp;lze <strong>rozbalit</strong> skryté&nbsp;nabídky&nbsp;s dalšími filtry.</p>
 
-<p><img alt="up" src="https://cdn0.iconfinder.com/data/icons/navigation-set-arrows-part-one/32/Upload-128.png" style="height:20px; width:20px" />. - <strong>nahrát uložený vyběr instutucí</strong><strong>. </strong>Tato ikona se zobrazuje pouze přihlášeným uživatelům.</p>
+<p>Použité filtry lze rušit jednotlivě (růžový <strong>symbol křížku</strong> <img src="https://github.com/moravianlibrary/CPK/raw/master/themes/bootstrap3/images/hints/no1.png" style="height:18px; width:18px" />) nebo hromadně (<strong>&quot;Odstranit filtry&quot;</strong> <img src="https://github.com/moravianlibrary/CPK/raw/master/themes/bootstrap3/images/hints/no2.png" style="height:18px; width:18px" />).</p>
 
-<p><img alt="Home" src="https://image.freepik.com/free-icon/home_318-103515.jpg" style="height:20px; width:20px" /> - <strong>vybrat </strong><strong>knihovny, ve kterých jste registrováni</strong>. Tato ikona se zobrazuje pouze přihlášeným uživatelům.</p>
-
-<p><img alt="Geolocation" src="https://cdn4.iconfinder.com/data/icons/thefreeforty/30/thefreeforty_location-128.png" style="height:20px; width:20px" /> - <strong>najít nejbližší knihovny</strong>.</p>
-
-<p>Použité filtry lze rušit jednotlivě (růžový <strong>symbol křížku</strong> <img src="https://github.com/moravianlibrary/VuFind-2.x/blob/master/themes/cpk-devel/images/hints/no2.png?raw=true" style="height:18px; width:18px" />) nebo hromadně (<strong>&quot;Odstranit filtry&quot;</strong> <img src="https://github.com/moravianlibrary/VuFind-2.x/blob/master/themes/cpk-devel/images/hints/no3.png?raw=true" style="height:18px; width:18px" />).</p>
-
-<p><img src="https://github.com/moravianlibrary/VuFind-2.x/blob/master/themes/cpk-devel/images/hints/kontext01cs.png?raw=true" style="display:block; height:385px; margin-left:auto; margin-right:auto; width:180px" /></p>
-
-<p>Máte-li právě aplikován jakýkoliv filtr a chcete zadat nový vyhledávací dotaz, můžete si zvolit, zda chcete <strong>&quot;Vyhledat s použitím současného nastavení filtrů&quot; </strong>(checkbox pod vyhledávacím řádkem). Tato možnost ve přednastavena jako aktivní, ale pro nové vyhledávání ji lze samozřejmě vypnout.</p>
-
-<h3>3.2 Ukládání, posílání a odebírání (RSS) výsledků vyhledávání</h3>
-
-<p>V horní části stránky, napravo od vyhledávacího řádku si můžete <strong>&quot;Uložit hledání&quot;</strong>. Svá uložená hledání najdete v sekci <strong>&quot;Můj účet&quot; </strong>pod položkou <strong>&quot;Uložená vyhledávání&quot;</strong>.</p>
-
-<p><strong>Ikonou obálky</strong> na konci seznamu výsledků si můžete <strong>emailem poslat odkaz</strong> na daný vyhledávací dotaz.</p>
-
-<p><strong>Ikona pro RSS</strong> na konci seznamu výsledků odkazuje na <strong>RSS kanál pro daný vyhledávací dotaz</strong>.</p>
-
-<p>S pomocí odebírání vyhledávácích výsledků přes RSS můžete mít přehled o nejnovějších publikacích z Vašeho oboru.</p>
-
-<p>Předtím, než si uložíte RSS odkaz, doporučujeme:</p>
-
-<ol>
-	<li><strong>Seřadit výsledky vyhledávání od nejnovějších</strong>. <img alt="" src="https://github.com/moravianlibrary/VuFind-2.x/blob/master/themes/cpk-devel/images/hints/no1.png?raw=true" style="height:18px; width:18px" /></li>
-	<li>Co nejlépe <strong>specifikovat oblast svého zájmu</strong> pomocí filtrů a pokročilého vyhledávání. <img alt="" src="https://github.com/moravianlibrary/VuFind-2.x/blob/master/themes/cpk-devel/images/hints/no2.png?raw=true" style="height:18px; width:18px" /></li>
-	<li>Upravit zobrazení počtu záznamů na stránku podle publikační aktivity ve Vašem oboru. <img src="https://github.com/moravianlibrary/VuFind-2.x/blob/master/themes/cpk-devel/images/hints/no3.png?raw=true" style="height:18px; width:18px" /></li>
-</ol>
-
-<p><em>Příklad: Zajímá Vás, jaké knihy o zoologii jsou nově k vypůjčení domů v Moravské zemské knihovně? </em></p>
-
-<p><img src="https://github.com/moravianlibrary/VuFind-2.x/blob/master/themes/cpk-devel/images/hints/kontext02cs.png?raw=true" style="display:block; height:151px; margin-left:auto; margin-right:auto; width:600px" /></p>
-
-<p><a href="#up">Nahoru</a></p>
-
-<h2><strong>4 Zobrazení úplného záznamu</strong></h2>
-
-<p>Úplný záznam ukazuje bibliografický záznam publikace a dostupnost exemplářů (knihovních jednotek) publikace v dané knihovně.</p>
-
-<p><strong>Můžete si prohlédnout záznam z každé knihovny, která má danou publikaci ve svém katalogu.</strong></p>
-
-<p><strong>Mezi záznamy z jednotlivých knihoven lze přepínat pomocí rolovacího seznamu &quot;Vybrat instituci&quot;.</strong> Chcete-li zjistit otevírací hodiny, kontakt či polohu knihovny, klikněte na <strong>&quot;Informace o knihovně&quot;</strong>.</p>
-
-<p>Jste-li právě přihlášeni účtem napojeným na jednu či více knihoven, kde jste registrováni, zobrazí se Vám přednostně záznamy právě z těchto knihoven.</p>
-
-<p><strong>U některých autorů</strong> se vedle jména a roku narození/úmrtí zobrazí <strong>ikona <img alt="ikona hlavy" src="https://raw.githubusercontent.com/JanaKurfurstova/varcpkfiles/master/iconUser.png" style="height:20px; width:20px" /></strong>. Kliknutím na tuto ikonu se dostanete na <strong>podrobnější informace o autorovi</strong>, tzv. autoritní záznam.</p>
-
-<h3>4.1 Možnosti postranního panelu</h3>
-
-<p>Bibliografický záznam si můžete nechat <strong>&quot;Poslat emailem&quot;</strong>.</p>
-
-<p>Dále si můžete <strong>&quot;Exportovat záznam&quot; </strong>do citačních managerů nebo si jej stáhnout jako .txt soubor.</p>
-
-<p><strong>&quot;Trvalý odkaz&quot;</strong> vede přímo na zobrazený záznam a můžete jej vkládat kamkoliv, odkud chcete odkazovat na záznam, jak jej vidíte na portálu Knihovny.cz.</p>
-
-<p>Publikaci si také můžete <strong>&quot;Přidat do oblíbených&quot;</strong>. Své oblíbené záznamy najdete v sekci <strong>&quot;Můj účet&quot;</strong> pod položkou <strong>&quot;Oblíbené&quot;</strong>.</p>
-
-<p>Funkce <strong>&quot;Zobrazit citace&quot;</strong> Vám poskytne korektní bibliografický odkaz podle vybrané normy, kdykoli potřebujete ve své práci uvádět citovaný zdroj.</p>
-
-<p>Ve sloupci <strong>&quot;Podobné&quot;</strong> uvidíte seznam publikací s podobnými záznamy jako je právě zobrazený záznam. Je možné, že v &quot;Podobných&quot; narazíte na totožnou publikaci, jejíž záznam z některé knihovny se nesloučil s ostatními. Záznamy knihoven jsou velmi rozmanité a nesloučené záznamy se nikdy nepodaří zcela vymýtit. Nepolevujeme však ve svém úsilí a neustále pracujeme na optimalizaci našich deduplikačních algoritmů.</p>
-
-<h3>4.2 Karta &quot;Půjčit&quot;</h3>
-
-<p>Zde se zobrazuje <strong>seznam exemplářů</strong> (knihovních jednotek) <strong>dané publikace</strong>, které má vybraná knihovna ve svém fondu. Mezi knihovnami se lze přepínat výběrem z rolovacího seznamu <strong>&quot;Vybrat instituci&quot;</strong>.</p>
-
-<p>Pokud <strong>jste právě přihlášen účtem, který máte napojený na knihovnu, kde jste registrován</strong>, může se Vám u některých exemplářů publikace v této knihovně zobrazit tlačitko <strong>&quot;Chci vypůjčit&quot;</strong>.</p>
-
-<p>Tlačítkem <strong>&quot;Chci vypůjčit&quot;</strong> se dostanete na jednoduchý <strong>formulář</strong>, kterým si můžete <strong>zarezervovat</strong> exemplář, který je právě půjčený jiným čtenářem, nebo si <strong>objednat</strong> dokumenty ze skladu či k odložení na pobočce.</p>
-
-<p><strong>Podmínky</strong> půjčování, objednávek a rezervací <strong>se u jednotlivých knihoven liší</strong>. <strong>Každá knihovna může dodat svou vlastní nápovědu</strong> jak pro kartu &quot;Půjčit&quot;, tak pro objednávkový formulář. <strong>Nápovědu si otevřete kliknutím na šedou ikonu otazníku.</strong></p>
-
-<h3>4.3 Karta &quot;E-verze&quot;</h3>
-
-<p>V kartě &quot;E-verze&quot; najdete seznam elektronických verzí dokumentu ve všech knihovnách, která mají dokument v jeho digitální podobě k dispozici.</p>
-
-<ul>
-	<li><strong>Dostupné</strong> dokumenty si můžete přečíst odkukoliv.</li>
-	<li><strong>Autorsky chráněné</strong> dokumenty jsou přístupné pouze na počítačích v budově knihovny.</li>
-	<li><strong>Neznámá dostupnost</strong> se týká těch dokumentů o jejichž dostupnosti nemáme informace. Dostupnost dokumentu si ověříte přímo na stránkách dané knihovny.</li>
-</ul>
-<!--
-<h3 style="color: #e5004b;"><a id="4.4"></a>4.4 Karta "Koupit"</h3>
-<p>Zde najdete odkazy do e-shopů, ve kterých je zobrazená publikace k dostání.</p>
--->
-
-<h3>4.4 Karta &quot;Komentáře&quot;</h3>
-
-<p>Prostor pro hodnocení a názory čtenářů. Přihlášení uživatelé můžou vkládat vlastní komentáře.</p>
-
-<h3>4.5 Karta &quot;Metadata&quot;</h3>
-
-<p>Obsah karty se záznamem o publikaci ve formátu MARC 21 je relevantní pro knihovníky.</p>
-
-<p><a href="#up">Nahoru</a></p>
-
-<h2><strong>5 Můj účet</strong></h2>
-
-<p>Přihlášením na Knihovny.cz získáte přístup k dalším užitečným funkcím portálu. Jejich výčet si můžete prohlédnout v <a href="#1">první kapitole tohoto návodu</a>.</p>
-
-<p>Na Knihovny.cz se lze přihlašovat pouze již existujícím účtem. Můžete se přihlásit účtem zapojené knihovny&quot; nebo účtem některé sociální sítě ze seznamu <strong>&quot;Ostatní přihlášení&quot;</strong> (Google, Facebook, LinkedIn, GitHub resp. mojeID či ORCID).</p>
-
-<p>Jednou z největších výhod portálu pro přihlášené uživatele je možnost <strong>propojování účtů</strong> (podrobnějí vysvětleno v kapitole <a href="#5.7">Propojené účty</a>).</p>
-
-<p>Samotné Knihovny.cz neumožňují vytvoření nového vlastního účtu. Na Knihovnách.cz však lze provést online registraci, předregistraci nebo vzdálenou registraci v některých zapojených knihovnách. Jejich seznam najdete <a href="../../../Portal/Page/vyhody-prihlaseni-a-registrace">zde</a>. Předregistrace se od registrace liší tím, že k jejímu dokončení je nutné osobně navštívit knihovnu (obvykle za účelem zaplacení registračního poplatku). Vzdálená registrace pak sestává z více kroků než online registrace (dle instrukcí knihovny).</p>
-
-<p>K informacím popsaným v následujících bodech se dostanete po přihlášení, z menu, které se zobrazí po kliknutí na Vaše jméno v pravém horním rohu obrazovky.</p>
-
-<h3>5.1 Výpůjčky</h3>
-
-<p>Vaše aktuální výpůjčky v zapojených knihovnách.</p>
-
-<p>V případě zobrazení tlačítek k <strong>prodloužení výpůjček</strong> se můžete pokusit odložit datum vrácení Vámi vypůjčených titulů.</p>
-
-<p>Pokud se prodloužení nezdaří, na vině bude nejspíš některý z následujících důvodů:</p>
-
-<ol>
-	<li>Titul si zarezervoval jiný čtenář a čeká, až bude navrácen.</li>
-	<li>Dosáhli jste maximálního povoleného počtu prodloužení výpůjčky.</li>
-	<li>Končí Vám platnost registrace / čtenářského průkazu.</li>
-	<li>Máte neuhrazený poplatek či pokutu.</li>
-</ol>
-
-<p>Tento přehled se zobrazuje jen uživatelům, kteří mají připojený účet z některé ze zapojených knihoven (více <a href="#5.7">zde</a>).</p>
-
-<h3>5.2 Historie výpůjček</h3>
-
-<p>V této sekci uvidíte seznam publikaci, které jste měli vypůjčené v minulosti. Zobrazení historie výpůjček na portálu Knihovny.cz nemusí být podporováno všemi zapojenými knihovnami.</p>
-
-<p>Tento přehled se zobrazuje jen uživatelům, kteří mají připojený účet z některé ze zapojených knihoven (více <a href="#5.7">zde</a>).</p>
-
-<h3>5.3 Rezervace a objednávky</h3>
-
-<p>Vaše aktuální rezervace a objednávky v zapojených knihovnách.</p>
-
-<p><strong>Možnost zrušení provedené rezervace či objednávky může být časově omezena</strong> v závislosti na nastavení systému Vaší knihovny. Objednávky lze zpravidla stornovat jen velmi krátce po jejich odeslání.</p>
-
-<p>Zarezervovat si lze zpravidla tituly, které má zrovna vypůjčené jiný čtenář.</p>
-
-<p>Objednávky se obvykle používají pro knihy uložené v knihovním skladu nebo pro odložení titulu na pobočce.</p>
-
-<p>Podmínky pro rezervace a objednávky se v jednotlivých knihovnách liší - některé ze zapojených knihoven poskytly vlastní nápovědu dostupnou po kliknutí na šedou otazníkovou ikonu v objednávkovém formuláři.</p>
-
-<p>Tento přehled se zobrazuje jen uživatelům, kteří mají připojený účet z některé ze zapojených knihoven (více <a href="#5.7">zde</a>).</p>
-
-<h3>5.4 Pokuty a poplatky</h3>
-
-<p>Přehled o pokutách a poplatcích k úhradě, výše záloh na čtenářských účtech.</p>
-
-<p><strong>Neuhrazené pokuty a poplatky</strong> jsou zobrazovány jako <strong>záporné částky</strong>.</p>
-
-<p><strong>Zálohy</strong> uložené na čtenářských kontech k budoucí úhradě poplatků se zobrazují jako <strong>kladná čísla</strong>.</p>
-
-<p>Je možné, že Vaše knihovna v případě neuhrazených pokut a poplatků nepovoluje čtenářům provádět některé úkony (prodlužování výpůjček, rezervace, objednávky...)</p>
-
-<p>Některé knihovny umožňují zaplacení pokut a poplatků přes portál Knihovny.cz. V tom případě se zobrazí tlačítko <strong>&quot;Zaplatit poplatky online&quot;</strong> nebo<strong> &quot;Zaplatit pokuty online&quot;</strong>, které Váš přesměruje na <strong>platební bránu knihovny</strong>.</p>
-
-<p>Tento přehled se zobrazuje jen uživatelům, kteří mají připojený účet z některé ze zapojených knihoven (více <a href="#5.7">zde</a>).</p>
-
-<h3>5.5 Moje knihovny</h3>
-
-<p><strong>Údaje o Vašich registracích v zapojených knihovnách</strong> - změny lze provést při osobní návštěvě daných knihoven nebo na jejich webových stránkách (dle možností konkrétního knihovního řádu). <strong>Údaje nelze změnit prostřednictvím portálu Knihovny.cz.</strong></p>
-
-<p>Samotný portál Knihovny.cz totiž umožňuje přihlášení jen prostřednictvím existujících účtů v knihovnách či na sociálních sítích a praktikuje politiku <strong>uchovávání minimálního množství dat o uživatelích</strong>. Propojení čtenářských účtů zapojených knihoven je umožněno českou akademickou federací EduId.cz, jejíž bezpečnostní kritéria musí splnit každá knihovna zapojená do projektu Knihovny.cz.</p>
-
-<p>Některé knihovny umožňují prodloužení registrace čtenáře přes portál Knihovny.cz. V tom případě se zobrazí tlačítko <strong>&quot;Prodloužit registraci online&quot;</strong>, které Vás přesměruje na <strong>platební bránu knihovny</strong>.</p>
-
-<p>Tento přehled se zobrazuje jen uživatelům, kteří mají připojený účet z některé ze zapojených knihoven (více <a href="#5.7">zde</a>).</p>
-
-<h3>5.6 Nastavení</h3>
-
-<p>Zde si můžete trvale nastavit preferovaný formát citací, počet výsledků vyhledávání na stránku a způsob řazení výsledků vyhledávání podle relevance, půjčovanosti, data, autora či názvu.</p>
-
-<h3>5.7 Propojené účty</h3>
-
-<p><strong>Propojte své účty ze zapojených knihoven a sociálních sítí.</strong></p>
-
-<table border="1" style="margin-left:auto; margin-right:auto">
-	<tbody>
-		<tr>
-			<td style="text-align:center">BEZPEČNOSTNÍ UPOZORNĚNÍ: <strong>Propojování účtů na veřejných či sdílených počítačích se z bezpečnostních důvodů silně nedoporučuje!</strong></td>
-		</tr>
-	</tbody>
+<table align="center" border="0" cellpadding="1" cellspacing="1" style="width:100%">
+    <tbody>
+        <tr>
+            <td><img src="https://github.com/moravianlibrary/CPK/raw/master/themes/bootstrap3/images/hints/kontext-and-or-cs.png" style="display:block; height:300px; margin-left:auto; margin-right:auto; width:201px" /></td>
+            <td style="text-align:center"><img alt="" src="https://github.com/moravianlibrary/CPK/raw/master/themes/bootstrap3/images/hints/kontext-instituce-cs.png" style="height:300px; width:210px" /></td>
+        </tr>
+    </tbody>
 </table>
 
 <p>&nbsp;</p>
 
-<p>Po otevření odkazu <strong>&quot;Připojit další účet&quot;</strong> pokračujte přihlášením pomocí účtu libovolné instituce ze seznamu <strong>&quot;Propojit s účtem zapojené knihovny&quot;</strong> nebo účtem některé sociální sítě ze seznamu <strong>&quot;Ostatní přihlášení&quot;</strong> (Google, Facebook, LinkedIn, GitHub, resp. mojeID čí ORCID).</p>
+<p>Při použití filtru <strong>&quot;Instituce&quot;</strong> nebo <strong>&quot;Rok vydání&quot;</strong> potvrďte svou volbu tlačítkem <strong>&quot;Použít filtr&quot;</strong>.</p>
 
-<p>Jakmile ke své identitě(<a href="#identita">*</a>) připojíte účet z další zapojené knihovny, získáte <strong>přehled o svých aktivitách v dané knihovně</strong> a budete si v ní moci rezervovat a objednávat publikace.</p>
+<p>Použití ikon u filtru <strong>&quot;Instituce&quot;</strong>:</p>
 
-<p>Pokud <strong>nejste registrováni v žádné zapojené knihovně</strong> a budete se přihlašovat <strong>jen účtem některé sociální sítě nebo přes mojeID či ORCID</strong>, nebudete si mít možnost rezervovat či objednávat publikace ze zapojených knihoven, ale <strong>budete moci ukládat své oblíbené záznamy a vyhledávání</strong>.</p>
-
-<p><strong>Více o možnostech registrace v zapojených knihovnách se dočtete <a href="../../../Portal/Page/moznosti-prihlaseni-a-registrace">zde</a>.</strong></p>
-
-<p>Ke své identitě budete mít přístup, ať už se přihlásíte kterýmkoliv z propojených účtů. Připojený účet můžete kdykoliv jednoduše <strong>odpojit</strong>. Je také možné <strong>&quot;Smazat identitu&quot;</strong> - po provedení této akce přijdete o svá uživatelská nastavení, uložená vyhledávání a seznamy oblíbených.</p>
-
-<p><strong>Prosíme Vás, abyste propojení účtů uskutečňovali na Vašem vlastním počítači.</strong><br />
-Potřebujete-li si připojit další účet <strong>na veřejném či cizím PC</strong>, ujistěte se, že po ukončení práce s portálem<strong> smažete všechna cookies v prohlížeči</strong> (nejen tohoto portálu, ale i všech dalších knihoven či sociálních sítí, které jste použili k propojení).</p>
-
-<p><strong>Není možné propojit si více účtů ze stejné knihovny.</strong> Stejně tak <strong>nelze propojit jeden účet z knihovny A s několika různými účty z knihovny B</strong> (ve smyslu nepřenosnosti čtenářských průkazů).</p>
-
-<p>(*) <em><strong>Identita</strong> na portálu Knihovny.cz <strong>sdružuje Vaše propojené účty</strong> z knihoven a sociálních sítí. Po prvním přihlášení je součástí Vaší portálové identity jen jeden účet - ten, který jste použili pro první přihlášení. Rozhodnutí o připojení dalších účtů je jen na Vás.</em></p>
-
-<h3>5.8 Uložená vyhledávání</h3>
-
-<p>Vaše nedávná a uložená vyhledávání.</p>
-
-<p>Kterékoliv nedávné vyhledávání si můžete uložit k pozdějšímu použití. Pokud už ho nebudete nadále potřebovat, můžete jej z uložených vyhledávání odstranit.</p>
-
-<p>Neuložená vyhledávání lze vymazat kliknutím na &quot;Odstranit neuložená vyhledávání&quot;.</p>
-
-<p><a href="../../../Search/History">Poslední použitá vyhledávání</a> jsou dostupná i pro nepřihlášené uživatele z odkazu v levém sloupci v patičce.</p>
-
-<h3>5.9 Oblíbené</h3>
-
-<p>Přehled záznamů, které jste si během své práce s portálem označili jako oblíbené.</p>
-
-<p>Své oblíbené položky si můžete třídit do seznamů a připisovat k nim poznámky (tlačítko <strong>&quot;Upravit&quot;</strong>).</p>
-
-<p>Pokud jste si přidali nějaké záznamy do oblíbených ještě před přihlášením, uvidíte je nyní v seznamu <strong>&quot;Přenesené oblíbené&quot;</strong>. Seznamy si můžete přejmenovat a popsat pomocí tlačítka <strong>&quot;Upravit seznam&quot;</strong>.</p>
-
-<p>Další možnosti:</p>
-
-<ul>
-	<li><strong>Odstranit</strong></li>
-	<li><strong>Poslat emailem:</strong> V případě zvolení jedné položky se adresátovi odešle odkaz na zobrazení úplných informací o odpovídajícím záznamu. V případě několika vybraných záznamů se odešle odkaz na výčet těchto položek - adresát se nedozví název Vašeho seznamu ani další Vaše údaje.</li>
-	<li><strong>Exportovat:</strong> Stáhnout bibliografické záznamy vybraných položek v textovém souboru nebo ve formátu pro citační manažery.</li>
-	<li><strong>Vytisknout</strong></li>
+<ul style="list-style-type:none">
+    <li>
+        <p><img alt="uloz" src="https://github.com/moravianlibrary/CPK/raw/master/themes/bootstrap3/images/hints/web-downloadarrow.png" style="height:18px; width:18px" />&nbsp;-<strong> uložit vyběr institucí pro pozdější použití. </strong>Tato ikona se zobrazuje pouze přihlášeným uživatelům.</p>
+    </li>
+    <li>
+        <p><img alt="nacti" src="https://github.com/moravianlibrary/CPK/raw/master/themes/bootstrap3/images/hints/web-uploadarrow.png" style="height:18px; width:18px" />&nbsp;- <strong>nahrát uložený vyběr instutucí</strong><strong>. </strong>Tato ikona se zobrazuje pouze přihlášeným uživatelům.</p>
+    </li>
+    <li>
+        <p><img alt="uzivatelovy knihovny" src="https://github.com/moravianlibrary/CPK/raw/master/themes/bootstrap3/images/hints/interface-househome2.png" style="height:18px; width:18px" />&nbsp;- <strong>vybrat </strong><strong>knihovny, ve kterých jste registrováni</strong>. Tato ikona se zobrazuje pouze přihlášeným uživatelům.</p>
+    </li>
+    <li>
+        <p><img alt="nedaleko" src="https://github.com/moravianlibrary/CPK/raw/master/themes/bootstrap3/images/hints/location-pinmap5.png" style="height:18px; width:18px" />&nbsp;- <strong>najít nejbližší knihovny</strong>.</p>
+    </li>
 </ul>
 
+<p>Máte-li právě aplikován jakýkoliv filtr a chcete zadat nový vyhledávací dotaz, můžete si zvolit, zda chcete <strong>&quot;Vyhledat s použitím současného nastavení filtrů&quot; </strong>(zaškrtávací políčko <strong>pod vyhledávacím řádkem</strong>). Tato možnost ve přednastavena jako aktivní, ale pro nové vyhledávání ji lze samozřejmě vypnout.</p>
+<h3><a id="3.2" name="3.2">3.2 Ukládání, posílání a odebírání (RSS) výsledků vyhledávání</a></h3>
+<p>V horní části stránky, napravo od vyhledávacího řádku si můžete <strong>"Uložit hledání"</strong>. Svá uložená hledání najdete v sekci <strong>"Můj účet" </strong>pod položkou <strong>"Uložená vyhledávání"</strong>.</p>
+<p><strong>Ikonou obálky</strong> na konci seznamu výsledků si můžete <strong>emailem poslat odkaz</strong> na daný vyhledávací dotaz.</p>
+<p><strong>Ikona pro RSS</strong> na konci seznamu výsledků odkazuje na <strong>RSS kanál pro daný vyhledávací dotaz</strong>.</p>
+<p>S pomocí odebírání vyhledávácích výsledků přes RSS můžete mít přehled o nejnovějších publikacích z Vašeho oboru.</p>
+<p>Předtím, než si uložíte RSS odkaz, doporučujeme:</p>
+<ol>
+    <li><strong>Seřadit výsledky vyhledávání od nejnovějších</strong>. <img src="https://github.com/moravianlibrary/VuFind-2.x/blob/master/themes/cpk-devel/images/hints/no1.png?raw=true" alt="" width="18" height="18" /></li>
+    <li>Co nejlépe <strong>specifikovat oblast svého zájmu</strong> pomocí filtrů a pokročilého vyhledávání. <img src="https://github.com/moravianlibrary/VuFind-2.x/blob/master/themes/cpk-devel/images/hints/no2.png?raw=true" alt="" width="18" height="18" /></li>
+    <li>Upravit zobrazení počtu záznamů na stránku podle publikační aktivity ve Vašem oboru. <img src="https://github.com/moravianlibrary/VuFind-2.x/blob/master/themes/cpk-devel/images/hints/no3.png?raw=true" width="18" height="18" /></li>
+</ol>
+<p><em>Příklad: Zajímá Vás, jaké knihy o zoologii jsou nově k vypůjčení domů v Moravské zemské knihovně? </em></p>
+<p><img style="display: block; margin-left: auto; margin-right: auto;" src="https://github.com/moravianlibrary/VuFind-2.x/blob/master/themes/cpk-devel/images/hints/kontext02cs.png?raw=true" width="600" height="151" /></p>
 <p><a href="#up">Nahoru</a></p>
-
-<h2><strong>6 Inspirace</strong></h2>
-
+<h2><strong>4 Zobrazení úplného záznamu</strong><a id="4">&nbsp;</a></h2>
+<p>Úplný záznam ukazuje bibliografický záznam publikace a dostupnost exemplářů (knihovních jednotek) publikace v dané knihovně.</p>
+<p><strong>Můžete si prohlédnout záznam z každé knihovny, která má danou publikaci ve svém katalogu.</strong></p>
+<p><strong>Mezi záznamy z jednotlivých knihoven lze přepínat pomocí rolovacího seznamu "Vybrat instituci".</strong> Chcete-li zjistit otevírací hodiny, kontakt či polohu knihovny, klikněte na <strong>"Informace o knihovně"</strong>.</p>
+<p>Jste-li právě přihlášeni účtem napojeným na jednu či více knihoven, kde jste registrováni, zobrazí se Vám přednostně záznamy právě z těchto knihoven.</p>
+<p><strong>U některých autorů</strong> se vedle jména a roku narození/úmrtí zobrazí <strong>ikona <img src="https://raw.githubusercontent.com/JanaKurfurstova/varcpkfiles/master/iconUser.png" alt="ikona hlavy" width="20" height="20" /></strong>. Kliknutím na tuto ikonu se dostanete na <strong>podrobnější informace o autorovi</strong>, tzv. autoritní záznam.</p>
+<h3><a id="4.1" name="4.1">4.1 Možnosti postranního panelu</a></h3>
+<p>Bibliografický záznam si můžete nechat <strong>"Poslat emailem"</strong>.</p>
+<p>Dále si můžete <strong>"Exportovat záznam" </strong>do citačních managerů nebo si jej stáhnout jako .txt soubor.</p>
+<p><strong>"Trvalý odkaz"</strong> vede přímo na zobrazený záznam a můžete jej vkládat kamkoliv, odkud chcete odkazovat na záznam, jak jej vidíte na portálu Knihovny.cz.</p>
+<p>Publikaci si také můžete <strong>"Přidat do oblíbených"</strong>. Své oblíbené záznamy najdete v sekci <strong>"Můj účet"</strong> pod položkou <strong>"Oblíbené"</strong>.</p>
+<p>Funkce <strong>"Zobrazit citace"</strong> Vám poskytne korektní bibliografický odkaz podle vybrané normy, kdykoli potřebujete ve své práci uvádět citovaný zdroj.</p>
+<p>Ve sloupci <strong>"Podobné"</strong> uvidíte seznam publikací s podobnými záznamy jako je právě zobrazený záznam. Je možné, že v "Podobných" narazíte na totožnou publikaci, jejíž záznam z některé knihovny se nesloučil s ostatními. Záznamy knihoven jsou velmi rozmanité a nesloučené záznamy se nikdy nepodaří zcela vymýtit. Nepolevujeme však ve svém úsilí a neustále pracujeme na optimalizaci našich deduplikačních algoritmů.</p>
+<h3><a id="4.2" name="4.2">4.2 Karta "Půjčit"</a></h3>
+<p>Zde se zobrazuje <strong>seznam exemplářů</strong> (knihovních jednotek) <strong>dané publikace</strong>, které má vybraná knihovna ve svém fondu. Mezi knihovnami se lze přepínat výběrem z rolovacího seznamu <strong>"Vybrat instituci"</strong>.</p>
+<p>Pokud <strong>jste právě přihlášen účtem, který máte napojený na knihovnu, kde jste registrován</strong>, může se Vám u některých exemplářů publikace v této knihovně zobrazit tlačitko <strong>"Chci vypůjčit"</strong>.</p>
+<p>Tlačítkem <strong>"Chci vypůjčit"</strong> se dostanete na jednoduchý <strong>formulář</strong>, kterým si můžete <strong>zarezervovat</strong> exemplář, který je právě půjčený jiným čtenářem, nebo si <strong>objednat</strong> dokumenty ze skladu či k odložení na pobočce.</p>
+<p><strong>Podmínky</strong> půjčování, objednávek a rezervací <strong>se u jednotlivých knihoven liší</strong>. <strong>Každá knihovna může dodat svou vlastní nápovědu</strong> jak pro kartu "Půjčit", tak pro objednávkový formulář. <strong>Nápovědu si otevřete kliknutím na šedou ikonu otazníku.</strong></p>
+<h3><a id="4.3" name="4.3">4.3 Karta "E-verze"</a></h3>
+<p>V kartě "E-verze" najdete seznam elektronických verzí dokumentu ve všech knihovnách, která mají dokument v jeho digitální podobě k dispozici.</p>
+<ul>
+    <li><strong>Dostupné</strong> dokumenty si můžete přečíst odkukoliv.</li>
+    <li><strong>Autorsky chráněné</strong> dokumenty jsou přístupné pouze na počítačích v budově knihovny.</li>
+    <li><strong>Neznámá dostupnost</strong> se týká těch dokumentů o jejichž dostupnosti nemáme informace. Dostupnost dokumentu si ověříte přímo na stránkách dané knihovny.</li>
+</ul>
+<h3 style="color: #e5004b;"><a id="4.4"></a>4.4 Karta "Komentáře"</h3>
+<p>Prostor pro hodnocení a názory čtenářů. Přihlášení uživatelé můžou vkládat vlastní komentáře.</p>
+<h3><a id="4.4" name="4.4">4.5 Karta "Metadata"</a></h3>
+<p>Obsah karty se záznamem o publikaci ve formátu MARC 21 je relevantní pro knihovníky.</p>
+<p><a href="#up">Nahoru</a></p>
+<h2><strong> <a id="5"></a>5 Můj účet</strong></h2>
+<p>Přihlášením na Knihovny.cz získáte přístup k dalším užitečným funkcím portálu. Jejich výčet si můžete prohlédnout v <a href="#1">první kapitole tohoto návodu</a>.</p>
+<p>Na Knihovny.cz se lze přihlašovat pouze již existujícím účtem. Můžete se přihlásit účtem zapojené knihovny" nebo účtem některé sociální sítě ze seznamu <strong>"Ostatní přihlášení"</strong> (Google, Facebook, LinkedIn, GitHub resp. mojeID či ORCID).</p>
+<p>Jednou z největších výhod portálu pro přihlášené uživatele je možnost <strong>propojování účtů</strong> (podrobnějí vysvětleno v kapitole <a href="#5.7">Propojené účty</a>).</p>
+<p>Samotné Knihovny.cz neumožňují vytvoření nového vlastního účtu. Na Knihovnách.cz však lze provést online registraci, předregistraci nebo vzdálenou registraci v některých zapojených knihovnách. Jejich seznam najdete <a href="../../../Portal/Page/vyhody-prihlaseni-a-registrace">zde</a>. Předregistrace se od registrace liší tím, že k jejímu dokončení je nutné osobně navštívit knihovnu (obvykle za účelem zaplacení registračního poplatku). Vzdálená registrace pak sestává z více kroků než online registrace (dle instrukcí knihovny).</p>
+<p>K informacím popsaným v následujících bodech se dostanete po přihlášení, z menu, které se zobrazí po kliknutí na Vaše jméno v pravém horním rohu obrazovky.</p>
+<h3 style="color: #e5004b;"><a id="5.1"></a>5.1 Výpůjčky</h3>
+<p>Vaše aktuální výpůjčky v zapojených knihovnách.</p>
+<p>V případě zobrazení tlačítek k <strong>prodloužení výpůjček</strong> se můžete pokusit odložit datum vrácení Vámi vypůjčených titulů.</p>
+<p>Pokud se prodloužení nezdaří, na vině bude nejspíš některý z následujících důvodů:</p>
+<ol>
+    <li>Titul si zarezervoval jiný čtenář a čeká, až bude navrácen.</li>
+    <li>Dosáhli jste maximálního povoleného počtu prodloužení výpůjčky.</li>
+    <li>Končí Vám platnost registrace / čtenářského průkazu.</li>
+    <li>Máte neuhrazený poplatek či pokutu.</li>
+</ol>
+<p>Tento přehled se zobrazuje jen uživatelům, kteří mají připojený účet z některé ze zapojených knihoven (více <a href="#5.7">zde</a>).</p>
+<h3 style="color: #e5004b;"><a id="5.2"></a>5.2 Historie výpůjček</h3>
+<p>V této sekci uvidíte seznam publikaci, které jste měli vypůjčené v minulosti. Zobrazení historie výpůjček na portálu Knihovny.cz nemusí být podporováno všemi zapojenými knihovnami.</p>
+<p>Tento přehled se zobrazuje jen uživatelům, kteří mají připojený účet z některé ze zapojených knihoven (více <a href="#5.7">zde</a>).</p>
+<h3 style="color: #e5004b;"><a id="5.3"></a>5.3 Rezervace a objednávky</h3>
+<p>Vaše aktuální rezervace a objednávky v zapojených knihovnách.</p>
+<p><strong>Možnost zrušení provedené rezervace či objednávky může být časově omezena</strong> v závislosti na nastavení systému Vaší knihovny. Objednávky lze zpravidla stornovat jen velmi krátce po jejich odeslání.</p>
+<p>Zarezervovat si lze zpravidla tituly, které má zrovna vypůjčené jiný čtenář.</p>
+<p>Objednávky se obvykle používají pro knihy uložené v knihovním skladu nebo pro odložení titulu na pobočce.</p>
+<p>Podmínky pro rezervace a objednávky se v jednotlivých knihovnách liší - některé ze zapojených knihoven poskytly vlastní nápovědu dostupnou po kliknutí na šedou otazníkovou ikonu v objednávkovém formuláři.</p>
+<p>Tento přehled se zobrazuje jen uživatelům, kteří mají připojený účet z některé ze zapojených knihoven (více <a href="#5.7">zde</a>).</p>
+<h3 style="color: #e5004b;"><a id="5.4"></a>5.4 Pokuty a poplatky</h3>
+<p>Přehled o pokutách a poplatcích k úhradě a výše záloh či vkladů ve všech Vašich knihovnách.</p>
+<p><strong>Neuhrazené pokuty a poplatky</strong> jsou zobrazovány jako <strong>záporné částky</strong>.</p>
+<p><strong>Zálohy</strong> uložené na čtenářských kontech k budoucí úhradě poplatků se zobrazují jako <strong>kladná čísla</strong>.</p>
+<p>Je možné, že Vaše knihovna v případě neuhrazených pokut a poplatků nepovoluje čtenářům provádět některé úkony (prodlužování výpůjček, rezervace, objednávky...)</p>
+<p>Některé knihovny umožňují zaplacení pokut a poplatků přes portál Knihovny.cz. V tom případě se zobrazí tlačítko <strong>"Zaplatit poplatky online"</strong> nebo<strong> "Zaplatit pokuty online"</strong>, které Váš přesměruje na <strong>platební bránu knihovny</strong>.</p>
+<p>Tento přehled se zobrazuje jen uživatelům, kteří mají připojený účet z některé ze zapojených knihoven (více <a href="#5.7">zde</a>).</p>
+<h3 style="color: #e5004b;"><a id="5.5"></a>5.5 Moje knihovny</h3>
+<p><strong>Údaje o Vašich registracích v zapojených knihovnách</strong> - změny lze provést při osobní návštěvě daných knihoven nebo na jejich webových stránkách (dle možností konkrétního knihovního řádu)<span data-sheets-value="{">. <strong>Údaje nelze změnit prostřednictvím portálu Knihovny.cz.</strong></span></p>
+<p>Samotný portál Knihovny.cz totiž umožňuje přihlášení jen prostřednictvím existujících účtů v knihovnách či na sociálních sítích a praktikuje politiku <strong>uchovávání minimálního množství dat o uživatelích</strong>. Propojení čtenářských účtů zapojených knihoven je umožněno českou akademickou federací EduId.cz, jejíž bezpečnostní kritéria musí splnit každá knihovna zapojená do projektu Knihovny.cz.</p>
+<p>Některé knihovny umožňují prodloužení registrace čtenáře přes portál Knihovny.cz. V tom případě se zobrazí tlačítko <strong>"Prodloužit registraci online"</strong>, které Vás přesměruje na <strong>platební bránu knihovny</strong>.</p>
+<p>Tento přehled se zobrazuje jen uživatelům, kteří mají připojený účet z některé ze zapojených knihoven (více <a href="#5.7">zde</a>).</p>
+<h3 style="color: #e5004b;"><a id="5.6"></a>5.6 Nastavení</h3>
+<p>Zde si můžete trvale nastavit preferovaný formát citací, počet výsledků vyhledávání na stránku a způsob řazení výsledků vyhledávání podle relevance, půjčovanosti, data, autora či názvu.</p>
+<h3 style="color: #e5004b;"><a id="5.7"></a>5.7 Propojené účty</h3>
+<p><strong>Propojte své účty ze zapojených knihoven a sociálních sítí.</strong></p>
+<table style="margin-left: auto; margin-right: auto;" border="1">
+    <tbody>
+        <tr>
+            <td style="text-align: center;">BEZPEČNOSTNÍ UPOZORNĚNÍ: <strong>Propojování účtů na veřejných či sdílených počítačích se z bezpečnostních důvodů silně nedoporučuje!</strong></td>
+        </tr>
+    </tbody>
+</table>
+<p>&nbsp;</p>
+<p>Po otevření odkazu <strong>"Připojit další účet"</strong> pokračujte přihlášením pomocí účtu libovolné instituce ze seznamu <strong>"Propojit s účtem zapojené knihovny"</strong> nebo účtem některé sociální sítě ze seznamu <strong>"Ostatní přihlášení"</strong> (Google, Facebook, LinkedIn, GitHub
+    <!--, resp. mojeID-->čí ORCID).</p>
+<p>Jakmile ke své identitě(<span style="font-weight: normal;"><a href="#identita">*</a></span>) připojíte účet z další zapojené knihovny, získáte <strong>přehled o svých aktivitách v dané knihovně</strong> a budete si v ní moci rezervovat a objednávat publikace.</p>
+<p>Pokud <strong>nejste registrováni v žádné zapojené knihovně</strong> a budete se přihlašovat <strong>jen účtem některé sociální sítě nebo přes<!-- mojeID či--> ORCID</strong>, nebudete si mít možnost rezervovat či objednávat publikace ze zapojených knihoven, ale <strong>budete moci ukládat své oblíbené záznamy a vyhledávání</strong>.</p>
+<p><strong>Více o možnostech registrace v zapojených knihovnách se dočtete <a href="../../../Portal/Page/moznosti-prihlaseni-a-registrace" target="_blank">zde</a>.</strong></p>
+<p>Ke své identitě budete mít přístup, ať už se přihlásíte kterýmkoliv z propojených účtů. Připojený účet můžete kdykoliv jednoduše <strong>odpojit</strong>. Je také možné <strong>"Smazat identitu"</strong> - po provedení této akce přijdete o svá uživatelská nastavení, uložená vyhledávání a seznamy oblíbených.</p>
+<p><strong>Prosíme Vás, abyste propojení účtů uskutečňovali na Vašem vlastním počítači.</strong><br />Potřebujete-li si připojit další účet <strong>na veřejném či cizím PC</strong>, ujistěte se, že po ukončení práce s portálem<strong> smažete všechna cookies v prohlížeči</strong> (nejen tohoto portálu, ale i všech dalších knihoven či sociálních sítí, které jste použili k propojení).</p>
+<p><strong>Není možné propojit si více účtů ze stejné knihovny.</strong> Stejně tak <strong>nelze propojit jeden účet z knihovny A s několika různými účty z knihovny B</strong> (ve smyslu nepřenosnosti čtenářských průkazů).</p>
+<p>(<a id="identita"></a>*) <em><strong>Identita</strong> na portálu Knihovny.cz <strong>sdružuje Vaše propojené účty</strong> z knihoven a sociálních sítí. Po prvním přihlášení je součástí Vaší portálové identity jen jeden účet - ten, který jste použili pro první přihlášení. Rozhodnutí o připojení dalších účtů je jen na Vás.</em></p>
+<h3 style="color: #e5004b;"><a id="5.8"></a>5.8 Uložená vyhledávání</h3>
+<p>Vaše nedávná a uložená vyhledávání.</p>
+<p>Kterékoliv nedávné vyhledávání si můžete uložit k pozdějšímu použití. Pokud už ho nebudete nadále potřebovat, můžete jej z uložených vyhledávání odstranit.</p>
+<p>Neuložená vyhledávání lze vymazat kliknutím na "Odstranit neuložená vyhledávání".</p>
+<p><a href="../../../Search/History">Poslední použitá vyhledávání</a> jsou dostupná i pro nepřihlášené uživatele z odkazu v levém sloupci v patičce.</p>
+<h3 style="color: #e5004b;"><a id="5.9"></a>5.9 Oblíbené</h3>
+<p>Přehled záznamů, které jste si během své práce s portálem označili jako oblíbené.</p>
+<p>Své oblíbené položky si můžete třídit do seznamů a připisovat k nim poznámky (tlačítko <strong>"Upravit"</strong>).</p>
+<p>Pokud jste si přidali nějaké záznamy do oblíbených ještě před přihlášením, uvidíte je nyní v seznamu <strong>"Přenesené oblíbené"</strong>. Seznamy si můžete přejmenovat a popsat pomocí tlačítka <strong>"Upravit seznam"</strong>.</p>
+<p>Další možnosti:</p>
+<ul>
+    <li><strong>Odstranit</strong></li>
+    <li><strong>Poslat emailem:</strong> V případě zvolení jedné položky se adresátovi odešle odkaz na zobrazení úplných informací o odpovídajícím záznamu. V případě několika vybraných záznamů se odešle odkaz na výčet těchto položek - adresát se nedozví název Vašeho seznamu ani další Vaše údaje.</li>
+    <li><strong>Exportovat:</strong> Stáhnout bibliografické záznamy vybraných položek v textovém souboru nebo ve formátu pro citační manažery.</li>
+    <li><strong>Vytisknout</strong></li>
+</ul>
+<p><a href="#up">Nahoru</a></p>
+<h2><a id="6"></a><strong>6 Inspirace</strong></h2>
 <p>Inspirační polička nabízí zajímavé tituly čtenářům beletrie i odborné literatury. Nyní obsahuje <strong>tipy</strong> např. na díla, která se dočkala filmového či televizního zpracování, <strong>nejpůjčovanější knihy</strong> z minulého roku, <strong>oblíbené autory</strong> z různých žánrů či nabídku <strong>elektronických dokumentů dostupných ke stažení</strong>. Vítáme tipy pracovníků knihoven na další obdobné seznamy.</p>
-
 <p>Najdete tu také hierarchický <strong>přehled oborů</strong> - každá položka tohoto seznamu odkazuje na seznam publikací týkajících se daného oboru.</p>
-
 <p><a href="#up">Nahoru</a></p>
-
-<h2><strong>7 Adresář knihoven (&quot;Knihovny&quot;)</strong></h2>
-
+<h2><a id="7" style="background-image: url('img/anchor.gif'); font-weight: bold;"></a><strong>7 Adresář knihoven ("Knihovny")</strong></h2>
 <p>Česká republika se může pochlubit nejhustější sítí veřejných knihoven v Evropské unii.</p>
-
 <p>V této sekci najdete seznam <strong>kontaktních informací a otevíracích hodin</strong> všech knihoven, které jsou vedeny v adresáři Národní knihovny ČR. Protože jsou tedy data do adresáře přebírána z Centrálního adresáře knihoven Národní knihovny, je možné, že v případě některých knihoven se pobočky zobrazují samostatně (protože mají samostatnou SIGLu). Data změněná v CADR se nepromítnou do adresáře ihned, ale v řádu několika dní.</p>
-
 <p>Většina těchto knihoven není zapojena do portálu Knihovny.cz - počet <strong>zapojených knihoven se však bude postupně zvyšovat</strong>.</p>
-
 <p>Knihovnu můžete hledat zadáním dotazu do vyhledávacího řádku (zadávat lze název, město/obec, či SIGLA) nebo si ji najít na mapě.</p>
-
 <p><a href="#up">Nahoru</a></p>
-
-<p style="text-align:right"><em>Aktualizováno 28. února 2017</em></p>
+<p style="text-align: right;"><em>Aktualizováno 28. února 2017</em></p>
