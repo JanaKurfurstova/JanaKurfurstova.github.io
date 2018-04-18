@@ -1,0 +1,52 @@
+<h2>Search in International Resources</h2>
+
+<ul>
+	<li><strong><code>&quot;Poe&#39;s Raven&quot;</code></strong><br />
+	search <strong>phrase between quotation marks, i. e.</strong><strong> </strong><strong><code>Poe&#39;s Raven</code></strong></li>
+</ul>
+
+<ul>
+	<li><strong><code>Poe AND Raven</code></strong><br />
+	search terms containing<strong> <code>Poe</code> as well as <code>Raven</code></strong></li>
+</ul>
+
+<ul>
+	<li><strong><code>Poe OR Raven</code></strong><br />
+	search terms containing <strong>at least one of the words</strong><strong> </strong><code>Poe</code><strong> or </strong><code>Raven</code></li>
+</ul>
+
+<ul>
+	<li><strong><code>Poe NOT Raven</code></strong><br />
+	search terms <strong>containing <code>Poe</code> and not containing <code>Raven</code></strong></li>
+</ul>
+
+<ul>
+	<li><strong><code>poe AND (raven OR (life AND work))</code></strong><br />
+	you can use <strong>parentheses</strong> (even nested) to make advanced queries<br />
+	searching is <strong>not case sensitive</strong> and <strong>ignores punctation and diacritics</strong></li>
+</ul>
+
+<ul>
+	<li><strong><code>Rave*</code></strong> - <em>International resources</em> (truncation symbol; cannot be used with <code>?</code> and <code>#</code>)<br />
+	search terms <strong>with empty or random string of characters in place of <code>*</code></strong> (truncation symbol <strong>can be used only at the end of the term</strong>; cannot be used togethser with <code>?</code> or <code>#</code>)</li>
+</ul>
+
+<ul>
+	<li><strong><code>R?ven</code></strong><br />
+	search terms begining with <code>R</code> and ending with <code>ven</code> <strong>with one character in place of <code>?</code></strong> (you cannot use that in the beginning of the term)</li>
+</ul>
+
+<ul>
+	<li><strong><code>R#ven</code></strong><br />
+	search terms begining with <code>R</code> and ending with <code>ven</code> <strong>with one or zero character in place of <code>#</code></strong> (you cannot use that in the beginning of the term)</li>
+</ul>
+
+<ul>
+	<li><code><strong>Poe N3 Raven</strong></code><br />
+	<strong>proximity search</strong>; search terms with <strong>at most three words between</strong> <code>Poe</code><strong> and </strong><code>Raven</code> (regardless of the order)</li>
+</ul>
+
+<ul>
+	<li><code><strong>Poe W3 Raven</strong></code><br />
+	<strong>proximity search</strong>; search terms with <strong>at most three words between</strong> <code>Poe</code><strong> and </strong><code>Raven</code> (in this order)</li>
+</ul>
