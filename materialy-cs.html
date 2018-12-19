@@ -16,15 +16,9 @@
 <hr />
 <h2><a id="Z39-50" name="Z39-50"><strong>Přebírání záznamů přes Z39.50</strong></a></h2>
 
-<h3><strong>Obecný profil</strong></h3>
+<p>Portál Knihovny.cz umožňuje knihovnám stahování bibliografických záznamů prostřednictvím protokolu Z39.50 a je tak funkční alternativou k nástrojům sdílené katalogizace JIB. Stejně jako na Jednotné informační bráně je možné si nechat nadefinovat jednotlivé profily, které umožňují prohledávat a přebírat záznamy z různých zdrojů najednou.</p>
 
-<p>Portál Knihovny.cz umožňuje knihovnám stahování bibliografických záznamů prostřednictvím protokolu Z39.50 a je tak funkční alternativou k nástrojům sdílené katalogizace JIB.</p>
-
-<h4><strong>Výhody stahování záznamů na portálu Knihovny.cz:</strong></h4>
-
-<p>Na rozdíl od JIB umožňují Knihovny.cz prohledávat všechny národní zdroje najednou (nemusí se tedy postupně ptát jednotlivých katalogů jako v JIB).</p>
-
-<p>Je možno přidat další zdroje (zejména zahraniční knihovny) jako další Z39.50 zdroje, které se pak chovají spolu s indexem Knihovny.cz podobně jako zdroje v JIB: systém se postupně dotazuje jednotlivých zdrojů v definovaném pořadí, dokud od některého z nich nedostane odpověď.</p>
+<p>Napište nám na adresu cpk-support@mzk.cz, pokud si přejete nechat zřídit individuálizovaný profil, jehož konfiguraci uzpůsobíme Vašim potřebám.</p>
 
 <h4><strong>Konfigurace obecných profilů pro přebírání:</strong></h4>
 
@@ -69,7 +63,7 @@
 				<p><strong>Jméno databáze:</strong></p>
 				</td>
 				<td>
-				<p><code>cpk</code>, <code>cpk_zahr</code> nebo <code>cpk_univ</code></p>
+				<p><code>cpk_zahr</code> nebo <code>cpk_univ</code>, ...</p>
 				</td>
 			</tr>
 		</tbody>
@@ -171,9 +165,13 @@
 	</li>
 </ul>
 
-<h3><strong>Profil <code>cpk</code> pro přebírání záznamů z národního indexu</strong></h3>
+<h3><strong>Profil <code>cpk_caslin</code> pro Souborný katalog ČR</strong></h3>
 
-<p>Všechny záznamy z Národních zdrojů kromě záznamů konvertovaných z proprietárních formátů a záznamů v Dublin Core.</p>
+<ul>
+	<li>
+	<p>Souborný katalog ČR</p>
+	</li>
+</ul>
 
 <h3><strong>Profil <code>cpk_zahr</code> pro výběr ze zahraničních knihoven</strong></h3>
 
@@ -355,6 +353,10 @@
 	<p>Historické fondy Vědecké knihovny v Olomouci</p>
 	</li>
 </ul>
+
+<h3><strong>Profil <code>cpk</code> pro přebírání záznamů z národního indexu</strong></h3>
+
+<p>Většina záznamů je z Národních zdrojů kromě záznamů konvertovaných z proprietárních formátů a záznamů v Dublin Core. Tento profil může obsahovat i takové záznamy, které nesplňují požadavky na minimální záznam pro Souborný katalog ČR. V případě, že Vám tento profil nevyhovuje, použijte jiný nebo si požádejte o individualizovaný profil.</p>
 
 <h3><strong>Individualizovaný profil</strong></h3>
 
